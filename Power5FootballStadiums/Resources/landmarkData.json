@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Jacob's Dream",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Abilene Christian University",
+        "coordinates": {
+            "longitude": -99.7065,
+            "latitude": 32.4684
+        },
+        "imageName": "jacobsdream"
+    },
+    {
+        "name": "Mabee Business Building",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Abilene Christian University",
+        "coordinates": {
+            "longitude": -99.7069,
+            "latitude": 32.4678
+        },
+        "imageName": "mabeebusiness"
+    },
+    {
+        "name": "Wildcat Stadium",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Abilene Christian University",
+        "coordinates": {
+            "longitude": -99.7089,
+            "latitude": 32.4736
+        },
+        "imageName": "wildcatstadium"
+    },
+    {
+        "name": "Brown Library",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1004,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Abilene Christian University",
+        "coordinates": {
+            "longitude": -99.7096,
+            "latitude": 32.4690
+        },
+        "imageName": "brownlibrary"
+    },
+    {
+        "name": "The Mill",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1005,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Abilene City Limits",
+        "coordinates": {
+            "longitude": -99.7297,
+            "latitude": 32.4465
+        },
+        "imageName": "themill"
+    },
+    {
+        "name": "The Grace",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Abilene City Limits",
+        "coordinates": {
+            "longitude": -99.7345,
+            "latitude": 32.4499
+        },
+        "imageName": "thegrace"
+    },
+    {
+        "name": "Beltway Park Church",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Abilene Area",
+        "coordinates": {
+            "longitude": -99.7759,
+            "latitude": 32.3503
+        },
+        "imageName": "beltwaypark",
+    },
+    {
+        "name": "The Shed Market",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Abilene Area",
+        "coordinates": {
+            "longitude": -99.7763,
+            "latitude": 32.3719
+        },
+        "imageName": "shedmarket"
+    },
+    {
+        "name": "Mansfield Park",
+        "category": "Hometown Places",
+        "city": "Bandera",
+        "state": "Texas",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Bandera Area",
+        "coordinates": {
+            "longitude": -99.1043,
+            "latitude": 29.7326
+        },
+        "imageName": "mansfieldpark"
+    },
+    {
+        "name": "Bandera City River Park",
+        "category": "Hometown Places",
+        "city": "Bandera",
+        "state": "Texas",
+        "id": 1010,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Bandera City Limits",
+        "coordinates": {
+            "longitude": -99.0719,
+            "latitude": 29.7210
+        },
+        "imageName": "banderariver"
+    },
+    {
+        "name": "The Apple Store",
+        "category": "Hometown Places",
+        "city": "Medina",
+        "state": "Texas",
+        "id": 1011,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Bandera Area",
+        "coordinates": {
+            "longitude": -99.2497,
+            "latitude": 29.7982
+        },
+        "imageName": "applestore"
+    },
+    {
+        "name": "O.S.T.",
+        "category": "Hometown Places",
+        "city": "Bandera",
+        "state": "Texas",
+        "id": 1012,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Bandera City Limits",
+        "coordinates": {
+            "longitude": -99.0712,
+            "latitude": 29.7245
+        },
+        "imageName": "ost"
+    }
+]
