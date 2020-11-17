@@ -1,181 +1,226 @@
 [
     {
-        "name": "Jacob's Dream",
-        "category": "ACU Campus",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Alumni Stadium",
+        "category": "ACC",
+        "city": "Chestnut Hill",
+        "state": "Massachusetts",
         "id": 1001,
-        "isFeatured": true,
-        "isFavorite": true,
-        "park": "Abilene Christian University",
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Boston College Eagles",
         "coordinates": {
-            "longitude": -99.7065,
-            "latitude": 32.4684
+            "longitude": -71.1664,
+            "latitude": 42.3352
         },
         "imageName": "jacobsdream"
     },
     {
-        "name": "Mabee Business Building",
-        "category": "ACU Campus",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Memorial Stadium",
+        "category": "ACC",
+        "city": "Clemson",
+        "state": "South Carolina",
         "id": 1002,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Abilene Christian University",
+        "park": "Clemson Tigers",
         "coordinates": {
-            "longitude": -99.7069,
-            "latitude": 32.4678
+            "longitude": -82.8432,
+            "latitude": 34.6788
         },
         "imageName": "mabeebusiness"
     },
     {
-        "name": "Wildcat Stadium",
-        "category": "ACU Campus",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Wallace Wade Stadium",
+        "category": "ACC",
+        "city": "Durham",
+        "state": "North Carolina",
         "id": 1003,
         "isFeatured": false,
-        "isFavorite": true,
-        "park": "Abilene Christian University",
+        "isFavorite": false,
+        "park": "Duke Blue Devils",
         "coordinates": {
-            "longitude": -99.7089,
-            "latitude": 32.4736
+            "longitude": -78.9417,
+            "latitude": 35.9954
         },
         "imageName": "wildcatstadium"
     },
     {
-        "name": "Brown Library",
-        "category": "ACU Campus",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Doak Campbell Stadium",
+        "category": "ACC",
+        "city": "Tallahassee",
+        "state": "Florida",
         "id": 1004,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Abilene Christian University",
+        "park": "Florida State Seminoles",
         "coordinates": {
-            "longitude": -99.7096,
-            "latitude": 32.4690
+            "longitude": -84.3044,
+            "latitude": 30.4382
         },
         "imageName": "brownlibrary"
     },
     {
-        "name": "The Mill",
-        "category": "Abilene Cool Spots",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Bobby Dodd Stadium",
+        "category": "ACC",
+        "city": "Atlanta",
+        "state": "Georgia",
         "id": 1005,
-        "isFeatured": true,
-        "isFavorite": true,
-        "park": "Abilene City Limits",
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Georgia Tech Yellow Jackets",
         "coordinates": {
-            "longitude": -99.7297,
-            "latitude": 32.4465
+            "longitude": -84.3928,
+            "latitude": 33.7725
         },
         "imageName": "themill"
     },
     {
-        "name": "The Grace",
-        "category": "Abilene Cool Spots",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Cardinal Stadium",
+        "category": "ACC",
+        "city": "Louisville",
+        "state": "Kentucky",
         "id": 1006,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Abilene City Limits",
+        "park": "Louisville Cardinals",
         "coordinates": {
-            "longitude": -99.7345,
-            "latitude": 32.4499
+            "longitude": -85.7588,
+            "latitude": 38.2059
         },
         "imageName": "thegrace"
     },
     {
-        "name": "Beltway Park Church",
-        "category": "Abilene Cool Spots",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Hard Rock Stadium",
+        "category": "ACC",
+        "city": "Miami Gardens",
+        "state": "Florida",
         "id": 1007,
         "isFeatured": true,
-        "isFavorite": true,
-        "park": "Abilene Area",
+        "isFavorite": false,
+        "park": "Miami Hurricanes",
         "coordinates": {
-            "longitude": -99.7759,
-            "latitude": 32.3503
+            "longitude": -80.2388,
+            "latitude": 25.9580
         },
         "imageName": "beltwaypark",
     },
     {
-        "name": "The Shed Market",
-        "category": "Abilene Cool Spots",
-        "city": "Abilene",
-        "state": "Texas",
+        "name": "Kenan Memorial Stadium",
+        "category": "ACC",
+        "city": "Chapel Hill",
+        "state": "North Carolina",
         "id": 1008,
         "isFeatured": false,
-        "isFavorite": true,
-        "park": "Abilene Area",
+        "isFavorite": false,
+        "park": "North Carolina Tar Heels",
         "coordinates": {
-            "longitude": -99.7763,
-            "latitude": 32.3719
+            "longitude": -79.0478,
+            "latitude": 35.9070
         },
         "imageName": "shedmarket"
     },
     {
-        "name": "Mansfield Park",
-        "category": "Hometown Places",
-        "city": "Bandera",
-        "state": "Texas",
+        "name": "Carter-Finley Stadium",
+        "category": "ACC",
+        "city": "Raleigh",
+        "state": "North Carolina",
         "id": 1009,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Bandera Area",
+        "park": "NC State Wolfpack",
         "coordinates": {
-            "longitude": -99.1043,
-            "latitude": 29.7326
+            "longitude": -78.7194,
+            "latitude": 35.8008
         },
         "imageName": "mansfieldpark"
     },
     {
-        "name": "Bandera City River Park",
-        "category": "Hometown Places",
-        "city": "Bandera",
-        "state": "Texas",
+        "name": "Heinz Field",
+        "category": "ACC",
+        "city": "Pittsburgh",
+        "state": "Pennsylvania",
         "id": 1010,
-        "isFeatured": true,
-        "isFavorite": true,
-        "park": "Bandera City Limits",
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Pittsburgh Panthers",
         "coordinates": {
-            "longitude": -99.0719,
-            "latitude": 29.7210
+            "longitude": -80.0158,
+            "latitude": 40.4468
         },
         "imageName": "banderariver"
     },
     {
-        "name": "The Apple Store",
-        "category": "Hometown Places",
-        "city": "Medina",
-        "state": "Texas",
+        "name": "Carrier Dome",
+        "category": "ACC",
+        "city": "Syracuse",
+        "state": "New York",
         "id": 1011,
         "isFeatured": false,
-        "isFavorite": true,
-        "park": "Bandera Area",
+        "isFavorite": false,
+        "park": "Syracuse Orange",
         "coordinates": {
-            "longitude": -99.2497,
-            "latitude": 29.7982
+            "longitude": -76.1363,
+            "latitude": 43.0362
         },
         "imageName": "applestore"
     },
     {
-        "name": "O.S.T.",
-        "category": "Hometown Places",
-        "city": "Bandera",
-        "state": "Texas",
+        "name": "Scott Stadium",
+        "category": "ACC",
+        "city": "Charlottesville",
+        "state": "Virginia",
         "id": 1012,
-        "isFeatured": true,
-        "isFavorite": true,
-        "park": "Bandera City Limits",
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Virginia Cavaliers",
         "coordinates": {
-            "longitude": -99.0712,
-            "latitude": 29.7245
+            "longitude": -78.5136,
+            "latitude": 38.0311
+        },
+        "imageName": "ost"
+    },
+    {
+        "name": "Lane Stadium",
+        "category": "ACC",
+        "city": "Blacksburg",
+        "state": "Virginia",
+        "id": 1013,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "Virginia Tech Hokies",
+        "coordinates": {
+            "longitude": -80.4180,
+            "latitude": 37.2200
+        },
+        "imageName": "ost"
+    },
+    {
+        "name": "Truist Stadium",
+        "category": "ACC",
+        "city": "Winston-Salem",
+        "state": "North Carolina",
+        "id": 1014,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Wake Forest Demon Deacons",
+        "coordinates": {
+            "longitude": -80.2546,
+            "latitude": 36.1306
+        },
+        "imageName": "ost"
+    },
+    {
+        "name": "Notre Dame Stadium",
+        "category": "ACC",
+        "city": "Notre Dame",
+        "state": "Indiana",
+        "id": 1015,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Notre Dame Fighting Irish",
+        "coordinates": {
+            "longitude": -86.2339,
+            "latitude": 41.6984
         },
         "imageName": "ost"
     }

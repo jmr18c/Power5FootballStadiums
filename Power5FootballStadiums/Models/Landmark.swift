@@ -36,9 +36,7 @@ struct Landmark: Hashable, Codable, Identifiable {
 
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
-        case acuCampus = "ACU Campus"
-        case abileneCS = "Abilene Cool Spots"
-        case hometownPlaces = "Hometown Places"
+        case acc = "ACC"
     }
 }
 
