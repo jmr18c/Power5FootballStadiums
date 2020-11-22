@@ -50,7 +50,7 @@ struct CategoryHome: View {
                     Text("See All")
                 }
             }
-            .navigationBarTitle(Text("Featured"))
+            .navigationBarTitle(Text("Power 5 Stadiums"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile) {
                 ProfileHost()
