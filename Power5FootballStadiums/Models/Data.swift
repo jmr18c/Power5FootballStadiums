@@ -1,16 +1,10 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Helpers for loading images and data.
-*/
-
 import UIKit
 import SwiftUI
 import CoreLocation
 
-let landmarkData: [Landmark] = load("landmarkData.json")
-let features = landmarkData.filter { $0.isFeatured }
+let stadiumData: [Stadiums] = load("stadiumData.json")
+let features = stadiumData.filter { $0.featured }
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

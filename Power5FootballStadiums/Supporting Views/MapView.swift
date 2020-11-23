@@ -1,8 +1,8 @@
 //
 //  MapView.swift
-//  Landmarks_JMR
+//  Power5FootballStadiums
 //
-//  Created by Justin Raitz on 11/8/20.
+//  Created by Justin Raitz on 11/12/20.
 //
 
 import SwiftUI
@@ -24,6 +24,6 @@ struct MapView: UIViewRepresentable {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: landmarkData[0].locationCoordinate)
+        MapView(coordinate: stadiumData[0].locationCoordinate)
     }
 }

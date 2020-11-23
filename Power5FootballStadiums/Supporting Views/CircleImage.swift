@@ -1,9 +1,10 @@
 //
 //  CircleImage.swift
-//  Landmarks_JMR
+//  Power5FootballStadiums
 //
-//  Created by Justin Raitz on 11/8/20.
+//  Created by Justin Raitz on 11/12/20.
 //
+
 
 import SwiftUI
 
@@ -12,15 +13,17 @@ struct CircleImage: View {
     
     var body: some View {
         image
+            .resizable()
+            .aspectRatio(contentMode: .fill)
             .frame(width: 250, height: 250)
-            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            .clipped()
+            .border(Color.black, width: 10)
+            .shadow(radius: 20)
     }
 }
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(image: Image("turtlerock"))
+        CircleImage(image: Image("acu_bonus"))
     }
 }

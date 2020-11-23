@@ -1,31 +1,20 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A model object that stores user profile data.
-*/
-
 import Foundation
 
 struct Profile {
     var username: String
-    var prefersNotifications: Bool
-    var seasonalPhoto: Season
-    var goalDate: Date
+    var sportPhoto: Sport
     
-    static let `default` = Self(username: "jraitz00", prefersNotifications: true, seasonalPhoto: .spring)
+    static let `default` = Self(username: "jraitz00", sportPhoto: .football)
     
-    init(username: String, prefersNotifications: Bool = true, seasonalPhoto: Season = .spring) {
+    init(username: String, sportPhoto: Sport = .football) {
         self.username = username
-        self.prefersNotifications = prefersNotifications
-        self.seasonalPhoto = seasonalPhoto
-        self.goalDate = Date()
+        self.sportPhoto = sportPhoto
     }
     
-    enum Season: String, CaseIterable {
-        case spring = "🌷"
-        case summer = "🌞"
-        case autumn = "🍂"
-        case winter = "☃️"
+    enum Sport: String, CaseIterable {
+        case football = "🏈"
+        case basketball = "🏀"
+        case baseball = "⚾️"
+        case soccer = "⚽️"
     }
 }

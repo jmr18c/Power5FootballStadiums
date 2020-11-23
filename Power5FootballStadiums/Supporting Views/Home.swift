@@ -1,23 +1,23 @@
 //
 //  Home.swift
-//  Landmarks_JMR
+//  Power5FootballStadiums
 //
-//  Created by Justin Raitz on 11/9/20.
+//  Created by Justin Raitz on 11/12/20.
 //
 
 import SwiftUI
 
-struct CategoryHome: View {
-    var categories: [String: [Landmark]] {
+struct ConferenceHome: View {
+    var conferences: [String: [Stadiums]] {
         Dictionary(
-            grouping: landmarkData,
-            by: { $0.category.rawValue }
+            grouping: stadiumData,
+            by: { $0.conference.rawValue }
         )
     }
     
     
-    var featured: [Landmark] {
-        landmarkData.filter { $0.isFeatured }
+    var featured: [Stadiums] {
+        stadiumData.filter { $0.featured }
     }
     
     @State var showingProfile = false
@@ -35,19 +35,19 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                FeaturedLandmarks(landmarks: featured)
+                FeaturedStadiums(stadium: featured)
                     .scaledToFill()
                     .frame(height: 250)
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
-                ForEach(categories.keys.sorted(), id: \.self) { key in
-                CategoryRow(categoryName: key, items: self.categories[key]!)
+                ForEach(conferences.keys.sorted(), id: \.self) { key in
+                ConferenceRow(conferenceName: key, items: self.conferences[key]!)
                 }
                 .listRowInsets(EdgeInsets())
                 
-                NavigationLink(destination: LandmarkList()) {
-                    Text("See All")
+                NavigationLink(destination: StadiumList()) {
+                    Text("See All Stadiums")
                 }
             }
             .navigationBarTitle(Text("Power 5 Stadiums"))
@@ -60,16 +60,16 @@ struct CategoryHome: View {
     }
 }
 
-struct FeaturedLandmarks: View {
-    var landmarks: [Landmark]
+struct FeaturedStadiums: View {
+    var stadium: [Stadiums]
     var body: some View {
-        PageView(features.map { FeatureCard(landmark: $0) })
+        PageView(features.map { FeatureCard(stadium: $0) })
         .aspectRatio(3/2, contentMode: .fit)
     }
 }
 
-struct CategoryHome_Previews: PreviewProvider {
+struct ConferenceHome_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryHome()
+        ConferenceHome()
     }
 }

@@ -1,25 +1,18 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A view that shows a featured landmark.
-*/
-
 import SwiftUI
 
 struct FeatureCard: View {
-    var landmark: Landmark
+    var stadium: Stadiums
     
     var body: some View {
-        landmark.featureImage?
+        stadium.featureImage?
             .resizable()
             .aspectRatio(3 / 2, contentMode: .fit)
-            .overlay(TextOverlay(landmark: landmark))
+            .overlay(TextOverlay(stadium: stadium))
     }
 }
 
 struct TextOverlay: View {
-    var landmark: Landmark
+    var stadium: Stadiums
     
     var gradient: LinearGradient {
         LinearGradient(
@@ -33,10 +26,10 @@ struct TextOverlay: View {
         ZStack(alignment: .bottomLeading) {
             Rectangle().fill(gradient)
             VStack(alignment: .leading) {
-                Text(landmark.name)
+                Text(stadium.stadium)
                     .font(.title)
                     .bold()
-                Text(landmark.park)
+                Text(stadium.team)
             }
             .padding()
         }
@@ -46,6 +39,6 @@ struct TextOverlay: View {
 
 struct FeatureCard_Previews: PreviewProvider {
     static var previews: some View {
-        FeatureCard(landmark: features[0])
+        FeatureCard(stadium: features[0])
     }
 }

@@ -1,8 +1,8 @@
 //
 //  UserData.swift
-//  Landmarks_JMR
+//  Power5FootballStadiums
 //
-//  Created by Justin Raitz on 11/9/20.
+//  Created by Justin Raitz on 11/17/20.
 //
 
 import SwiftUI
@@ -10,6 +10,6 @@ import Combine
 
 final class UserData: ObservableObject {
     @Published var showFavoritesOnly = false
-    @Published var landmarks = landmarkData
+    @Published var stadiums = stadiumData
     @Published var profile = Profile.default
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct Power5FootballStadiumsApp: App {
     var body: some Scene {
         WindowGroup {
-            CategoryHome() .environmentObject(UserData())
+            ConferenceHome() .environmentObject(UserData())
         }
     }
 }

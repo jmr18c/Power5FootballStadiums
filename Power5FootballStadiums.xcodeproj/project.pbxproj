@@ -8,88 +8,218 @@
 
 /* Begin PBXBuildFile section */
 		9476B4BF255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4BE255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift */; };
-		9476B4C1255D7B27003AE6B4 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4C0255D7B27003AE6B4 /* LandmarkDetail.swift */; };
+		9476B4C1255D7B27003AE6B4 /* StadiumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4C0255D7B27003AE6B4 /* StadiumDetail.swift */; };
 		9476B4C3255D7B2A003AE6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9476B4C2255D7B2A003AE6B4 /* Assets.xcassets */; };
 		9476B4C6255D7B2A003AE6B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9476B4C5255D7B2A003AE6B4 /* Preview Assets.xcassets */; };
-		9476B4D0255D7C55003AE6B4 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9476B4CF255D7C55003AE6B4 /* landmarkData.json */; };
+		9476B4D0255D7C55003AE6B4 /* stadiumData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9476B4CF255D7C55003AE6B4 /* stadiumData.json */; };
 		9476B4D7255D7E15003AE6B4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4D6255D7E14003AE6B4 /* Data.swift */; };
-		9476B4DA255D7E1E003AE6B4 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4D9255D7E1E003AE6B4 /* Landmark.swift */; };
+		9476B4DA255D7E1E003AE6B4 /* Stadiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4D9255D7E1E003AE6B4 /* Stadiums.swift */; };
 		9476B4DD255D7E24003AE6B4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4DC255D7E24003AE6B4 /* Profile.swift */; };
 		9476B4E0255D7E63003AE6B4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4DF255D7E63003AE6B4 /* CircleImage.swift */; };
 		9476B4E3255D7E6B003AE6B4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4E2255D7E6B003AE6B4 /* MapView.swift */; };
 		9476B4E6255D7EB0003AE6B4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4E5255D7EB0003AE6B4 /* Home.swift */; };
-		9476B4E9255D7EBC003AE6B4 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4E8255D7EBC003AE6B4 /* CategoryRow.swift */; };
+		9476B4E9255D7EBC003AE6B4 /* ConferenceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4E8255D7EBC003AE6B4 /* ConferenceRow.swift */; };
 		9476B4EC255D7EC1003AE6B4 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4EB255D7EC1003AE6B4 /* FeatureCard.swift */; };
 		9476B4EF255D7F52003AE6B4 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4EE255D7F52003AE6B4 /* ProfileHost.swift */; };
 		9476B4F2255D7F56003AE6B4 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4F1255D7F56003AE6B4 /* ProfileSummary.swift */; };
 		9476B4F5255D7F59003AE6B4 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4F4255D7F59003AE6B4 /* ProfileEditor.swift */; };
-		9476B4F9255D8008003AE6B4 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4F8255D8008003AE6B4 /* LandmarkRow.swift */; };
-		9476B4FC255D800D003AE6B4 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4FB255D800D003AE6B4 /* LandmarkList.swift */; };
+		9476B4F9255D8008003AE6B4 /* StadiumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4F8255D8008003AE6B4 /* StadiumRow.swift */; };
+		9476B4FC255D800D003AE6B4 /* StadiumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4FB255D800D003AE6B4 /* StadiumList.swift */; };
 		9476B4FF255D83F6003AE6B4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4FE255D83F5003AE6B4 /* PageViewController.swift */; };
 		9476B502255D83FA003AE6B4 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B501255D83FA003AE6B4 /* PageView.swift */; };
 		9476B505255D83FE003AE6B4 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B504255D83FE003AE6B4 /* PageControl.swift */; };
 		9476B508255D8420003AE6B4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B507255D8420003AE6B4 /* UserData.swift */; };
-		9476B51B255D84A6003AE6B4 /* ost_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B50A255D84A5003AE6B4 /* ost_feature.jpg */; };
-		9476B51C255D84A6003AE6B4 /* thegrace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B50B255D84A5003AE6B4 /* thegrace.jpg */; };
-		9476B51D255D84A6003AE6B4 /* jacobsdream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B50C255D84A5003AE6B4 /* jacobsdream.jpg */; };
-		9476B51E255D84A6003AE6B4 /* brownlibrary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B50D255D84A5003AE6B4 /* brownlibrary.jpg */; };
-		9476B51F255D84A6003AE6B4 /* mabeebusiness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B50E255D84A5003AE6B4 /* mabeebusiness.jpg */; };
-		9476B520255D84A6003AE6B4 /* banderariver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B50F255D84A5003AE6B4 /* banderariver.jpg */; };
-		9476B521255D84A6003AE6B4 /* mansfieldpark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B510255D84A5003AE6B4 /* mansfieldpark.jpg */; };
-		9476B522255D84A6003AE6B4 /* themill_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B511255D84A5003AE6B4 /* themill_feature.jpg */; };
-		9476B523255D84A6003AE6B4 /* beltwaypark_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B512255D84A5003AE6B4 /* beltwaypark_feature.jpg */; };
-		9476B524255D84A6003AE6B4 /* shedmarket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B513255D84A5003AE6B4 /* shedmarket.jpg */; };
-		9476B525255D84A6003AE6B4 /* jacobsdream_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B514255D84A6003AE6B4 /* jacobsdream_feature.jpg */; };
-		9476B526255D84A6003AE6B4 /* themill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B515255D84A6003AE6B4 /* themill.jpg */; };
-		9476B527255D84A6003AE6B4 /* wildcatstadium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B516255D84A6003AE6B4 /* wildcatstadium.jpg */; };
-		9476B528255D84A6003AE6B4 /* ost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B517255D84A6003AE6B4 /* ost.jpg */; };
-		9476B529255D84A6003AE6B4 /* applestore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B518255D84A6003AE6B4 /* applestore.jpg */; };
-		9476B52A255D84A6003AE6B4 /* beltwaypark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B519255D84A6003AE6B4 /* beltwaypark.jpg */; };
-		9476B52B255D84A6003AE6B4 /* banderariver_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9476B51A255D84A6003AE6B4 /* banderariver_feature.jpg */; };
+		94A5CFF8256C537C00920A8A /* wisconsin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE1256C537C00920A8A /* wisconsin.jpg */; };
+		94A5CFF9256C537C00920A8A /* stanford.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE2256C537C00920A8A /* stanford.jpg */; };
+		94A5CFFA256C537C00920A8A /* south_carolina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE3256C537C00920A8A /* south_carolina.jpg */; };
+		94A5CFFB256C537C00920A8A /* ucla_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE4256C537C00920A8A /* ucla_feature.jpg */; };
+		94A5CFFC256C537C00920A8A /* virginia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE5256C537C00920A8A /* virginia.jpg */; };
+		94A5CFFD256C537C00920A8A /* syracuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE6256C537C00920A8A /* syracuse.jpg */; };
+		94A5CFFE256C537C00920A8A /* texas_a&m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE7256C537C00920A8A /* texas_a&m.jpg */; };
+		94A5CFFF256C537C00920A8A /* tennessee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE8256C537C00920A8A /* tennessee.jpg */; };
+		94A5D000256C537C00920A8A /* utah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFE9256C537C00920A8A /* utah.jpg */; };
+		94A5D001256C537C00920A8A /* texas_tech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFEA256C537C00920A8A /* texas_tech.jpg */; };
+		94A5D002256C537C00920A8A /* washington_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFEB256C537C00920A8A /* washington_state.jpg */; };
+		94A5D003256C537C00920A8A /* washington.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFEC256C537C00920A8A /* washington.jpg */; };
+		94A5D004256C537C00920A8A /* wake_forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFED256C537C00920A8A /* wake_forest.jpg */; };
+		94A5D005256C537C00920A8A /* texas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFEE256C537C00920A8A /* texas.jpg */; };
+		94A5D006256C537C00920A8A /* ucla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFEF256C537C00920A8A /* ucla.jpg */; };
+		94A5D007256C537C00920A8A /* usc_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF0256C537C00920A8A /* usc_feature.jpg */; };
+		94A5D008256C537C00920A8A /* texas_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF1256C537C00920A8A /* texas_feature.jpg */; };
+		94A5D009256C537C00920A8A /* virginia_tech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF2256C537C00920A8A /* virginia_tech.jpg */; };
+		94A5D00A256C537C00920A8A /* vanderbilt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF3256C537C00920A8A /* vanderbilt.jpg */; };
+		94A5D00B256C537C00920A8A /* west_virginia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF4256C537C00920A8A /* west_virginia.jpg */; };
+		94A5D00C256C537C00920A8A /* tcu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF5256C537C00920A8A /* tcu.jpg */; };
+		94A5D00D256C537C00920A8A /* usc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF6256C537C00920A8A /* usc.jpg */; };
+		94A5D00E256C537D00920A8A /* texas_a&m_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5CFF7256C537C00920A8A /* texas_a&m_feature.jpg */; };
+		94A5D049256C53BA00920A8A /* maryland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D010256C53B700920A8A /* maryland.jpg */; };
+		94A5D04A256C53BA00920A8A /* lsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D011256C53B700920A8A /* lsu.jpg */; };
+		94A5D04B256C53BA00920A8A /* alabama_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D012256C53B700920A8A /* alabama_feature.jpg */; };
+		94A5D04C256C53BA00920A8A /* duke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D013256C53B700920A8A /* duke.jpg */; };
+		94A5D04D256C53BA00920A8A /* oklahoma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D014256C53B800920A8A /* oklahoma.jpg */; };
+		94A5D04E256C53BA00920A8A /* nebraska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D015256C53B800920A8A /* nebraska.jpg */; };
+		94A5D04F256C53BA00920A8A /* rutgers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D016256C53B800920A8A /* rutgers.jpg */; };
+		94A5D050256C53BA00920A8A /* clemson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D017256C53B800920A8A /* clemson.jpg */; };
+		94A5D051256C53BA00920A8A /* notre_dame_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D018256C53B800920A8A /* notre_dame_feature.jpg */; };
+		94A5D052256C53BA00920A8A /* florida_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D019256C53B800920A8A /* florida_state.jpg */; };
+		94A5D053256C53BA00920A8A /* oregon_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D01A256C53B800920A8A /* oregon_state.jpg */; };
+		94A5D054256C53BA00920A8A /* oklahoma_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D01B256C53B800920A8A /* oklahoma_state.jpg */; };
+		94A5D055256C53BA00920A8A /* ohio_state_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D01C256C53B800920A8A /* ohio_state_feature.jpg */; };
+		94A5D056256C53BA00920A8A /* colorado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D01D256C53B800920A8A /* colorado.jpg */; };
+		94A5D057256C53BA00920A8A /* oregon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D01E256C53B800920A8A /* oregon.jpg */; };
+		94A5D058256C53BA00920A8A /* iowa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D01F256C53B800920A8A /* iowa.jpg */; };
+		94A5D059256C53BA00920A8A /* miss_st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D020256C53B800920A8A /* miss_st.jpg */; };
+		94A5D05A256C53BA00920A8A /* kansas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D021256C53B800920A8A /* kansas.jpg */; };
+		94A5D05B256C53BA00920A8A /* baylor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D022256C53B800920A8A /* baylor.jpg */; };
+		94A5D05C256C53BA00920A8A /* indiana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D023256C53B800920A8A /* indiana.jpg */; };
+		94A5D05D256C53BA00920A8A /* purdue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D024256C53B800920A8A /* purdue.jpg */; };
+		94A5D05E256C53BA00920A8A /* alabama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D025256C53B800920A8A /* alabama.jpg */; };
+		94A5D05F256C53BA00920A8A /* illinois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D026256C53B800920A8A /* illinois.jpg */; };
+		94A5D060256C53BA00920A8A /* florida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D027256C53B800920A8A /* florida.jpg */; };
+		94A5D061256C53BA00920A8A /* michigan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D028256C53B800920A8A /* michigan.jpg */; };
+		94A5D062256C53BA00920A8A /* ohio_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D029256C53B800920A8A /* ohio_state.jpg */; };
+		94A5D063256C53BA00920A8A /* michigan_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D02A256C53B800920A8A /* michigan_state.jpg */; };
+		94A5D064256C53BA00920A8A /* penn_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D02B256C53B800920A8A /* penn_state.jpg */; };
+		94A5D065256C53BA00920A8A /* miami_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D02C256C53B900920A8A /* miami_feature.jpg */; };
+		94A5D066256C53BA00920A8A /* nc_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D02D256C53B900920A8A /* nc_state.jpg */; };
+		94A5D067256C53BA00920A8A /* georgia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D02E256C53B900920A8A /* georgia.jpg */; };
+		94A5D068256C53BA00920A8A /* pitt_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D02F256C53B900920A8A /* pitt_feature.jpg */; };
+		94A5D069256C53BA00920A8A /* notre_dame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D030256C53B900920A8A /* notre_dame.jpg */; };
+		94A5D06A256C53BA00920A8A /* north_carolina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D031256C53B900920A8A /* north_carolina.jpg */; };
+		94A5D06B256C53BA00920A8A /* iowa_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D032256C53B900920A8A /* iowa_state.jpg */; };
+		94A5D06C256C53BA00920A8A /* miami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D033256C53B900920A8A /* miami.jpg */; };
+		94A5D06D256C53BA00920A8A /* arizona_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D034256C53B900920A8A /* arizona_state.jpg */; };
+		94A5D06E256C53BA00920A8A /* northwestern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D035256C53B900920A8A /* northwestern.jpg */; };
+		94A5D06F256C53BA00920A8A /* oklahoma_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D036256C53B900920A8A /* oklahoma_feature.jpg */; };
+		94A5D070256C53BA00920A8A /* minnesota.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D037256C53B900920A8A /* minnesota.jpg */; };
+		94A5D071256C53BA00920A8A /* boston_college.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D038256C53B900920A8A /* boston_college.jpg */; };
+		94A5D072256C53BA00920A8A /* kansas_state.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D039256C53B900920A8A /* kansas_state.jpg */; };
+		94A5D073256C53BA00920A8A /* clemson_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D03A256C53B900920A8A /* clemson_feature.jpg */; };
+		94A5D074256C53BA00920A8A /* missouri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D03B256C53B900920A8A /* missouri.jpg */; };
+		94A5D075256C53BA00920A8A /* auburn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D03C256C53B900920A8A /* auburn.jpg */; };
+		94A5D076256C53BA00920A8A /* cal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D03D256C53B900920A8A /* cal.jpg */; };
+		94A5D077256C53BA00920A8A /* pitt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D03E256C53B900920A8A /* pitt.jpg */; };
+		94A5D078256C53BA00920A8A /* georgia_tech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D03F256C53B900920A8A /* georgia_tech.jpg */; };
+		94A5D079256C53BA00920A8A /* penn_state_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D040256C53B900920A8A /* penn_state_feature.jpg */; };
+		94A5D07A256C53BA00920A8A /* kentucky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D041256C53B900920A8A /* kentucky.jpg */; };
+		94A5D07B256C53BA00920A8A /* michigan_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D042256C53BA00920A8A /* michigan_feature.jpg */; };
+		94A5D07C256C53BA00920A8A /* ole_miss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D043256C53BA00920A8A /* ole_miss.jpg */; };
+		94A5D07D256C53BA00920A8A /* arkansas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D044256C53BA00920A8A /* arkansas.jpg */; };
+		94A5D07E256C53BA00920A8A /* arizona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D045256C53BA00920A8A /* arizona.jpg */; };
+		94A5D07F256C53BA00920A8A /* louisville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D046256C53BA00920A8A /* louisville.jpg */; };
+		94A5D080256C53BA00920A8A /* lsu_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D047256C53BA00920A8A /* lsu_feature.jpg */; };
+		94A5D081256C53BA00920A8A /* oregon_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D048256C53BA00920A8A /* oregon_feature.jpg */; };
+		94A5D085256C54EB00920A8A /* acu_bonus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D084256C54EB00920A8A /* acu_bonus.jpg */; };
+		94A5D08F256C74FB00920A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D08E256C74FB00920A8A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9476B4BB255D7B27003AE6B4 /* Power5FootballStadiums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Power5FootballStadiums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9476B4BE255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power5FootballStadiumsApp.swift; sourceTree = "<group>"; };
-		9476B4C0255D7B27003AE6B4 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		9476B4C0255D7B27003AE6B4 /* StadiumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumDetail.swift; sourceTree = "<group>"; };
 		9476B4C2255D7B2A003AE6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9476B4C5255D7B2A003AE6B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9476B4C7255D7B2A003AE6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9476B4CF255D7C55003AE6B4 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		9476B4CF255D7C55003AE6B4 /* stadiumData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stadiumData.json; sourceTree = "<group>"; };
 		9476B4D6255D7E14003AE6B4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		9476B4D9255D7E1E003AE6B4 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		9476B4D9255D7E1E003AE6B4 /* Stadiums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stadiums.swift; sourceTree = "<group>"; };
 		9476B4DC255D7E24003AE6B4 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		9476B4DF255D7E63003AE6B4 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		9476B4E2255D7E6B003AE6B4 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9476B4E5255D7EB0003AE6B4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		9476B4E8255D7EBC003AE6B4 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		9476B4E8255D7EBC003AE6B4 /* ConferenceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceRow.swift; sourceTree = "<group>"; };
 		9476B4EB255D7EC1003AE6B4 /* FeatureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		9476B4EE255D7F52003AE6B4 /* ProfileHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		9476B4F1255D7F56003AE6B4 /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		9476B4F4255D7F59003AE6B4 /* ProfileEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
-		9476B4F8255D8008003AE6B4 /* LandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
-		9476B4FB255D800D003AE6B4 /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		9476B4F8255D8008003AE6B4 /* StadiumRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumRow.swift; sourceTree = "<group>"; };
+		9476B4FB255D800D003AE6B4 /* StadiumList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumList.swift; sourceTree = "<group>"; };
 		9476B4FE255D83F5003AE6B4 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		9476B501255D83FA003AE6B4 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		9476B504255D83FE003AE6B4 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		9476B507255D8420003AE6B4 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		9476B50A255D84A5003AE6B4 /* ost_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ost_feature.jpg; sourceTree = "<group>"; };
-		9476B50B255D84A5003AE6B4 /* thegrace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thegrace.jpg; sourceTree = "<group>"; };
-		9476B50C255D84A5003AE6B4 /* jacobsdream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacobsdream.jpg; sourceTree = "<group>"; };
-		9476B50D255D84A5003AE6B4 /* brownlibrary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brownlibrary.jpg; sourceTree = "<group>"; };
-		9476B50E255D84A5003AE6B4 /* mabeebusiness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mabeebusiness.jpg; sourceTree = "<group>"; };
-		9476B50F255D84A5003AE6B4 /* banderariver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banderariver.jpg; sourceTree = "<group>"; };
-		9476B510255D84A5003AE6B4 /* mansfieldpark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mansfieldpark.jpg; sourceTree = "<group>"; };
-		9476B511255D84A5003AE6B4 /* themill_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = themill_feature.jpg; sourceTree = "<group>"; };
-		9476B512255D84A5003AE6B4 /* beltwaypark_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beltwaypark_feature.jpg; sourceTree = "<group>"; };
-		9476B513255D84A5003AE6B4 /* shedmarket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shedmarket.jpg; sourceTree = "<group>"; };
-		9476B514255D84A6003AE6B4 /* jacobsdream_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacobsdream_feature.jpg; sourceTree = "<group>"; };
-		9476B515255D84A6003AE6B4 /* themill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = themill.jpg; sourceTree = "<group>"; };
-		9476B516255D84A6003AE6B4 /* wildcatstadium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wildcatstadium.jpg; sourceTree = "<group>"; };
-		9476B517255D84A6003AE6B4 /* ost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ost.jpg; sourceTree = "<group>"; };
-		9476B518255D84A6003AE6B4 /* applestore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = applestore.jpg; sourceTree = "<group>"; };
-		9476B519255D84A6003AE6B4 /* beltwaypark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beltwaypark.jpg; sourceTree = "<group>"; };
-		9476B51A255D84A6003AE6B4 /* banderariver_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banderariver_feature.jpg; sourceTree = "<group>"; };
+		94A5CFE1256C537C00920A8A /* wisconsin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wisconsin.jpg; sourceTree = "<group>"; };
+		94A5CFE2256C537C00920A8A /* stanford.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stanford.jpg; sourceTree = "<group>"; };
+		94A5CFE3256C537C00920A8A /* south_carolina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = south_carolina.jpg; sourceTree = "<group>"; };
+		94A5CFE4256C537C00920A8A /* ucla_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ucla_feature.jpg; sourceTree = "<group>"; };
+		94A5CFE5256C537C00920A8A /* virginia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = virginia.jpg; sourceTree = "<group>"; };
+		94A5CFE6256C537C00920A8A /* syracuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = syracuse.jpg; sourceTree = "<group>"; };
+		94A5CFE7256C537C00920A8A /* texas_a&m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "texas_a&m.jpg"; sourceTree = "<group>"; };
+		94A5CFE8256C537C00920A8A /* tennessee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennessee.jpg; sourceTree = "<group>"; };
+		94A5CFE9256C537C00920A8A /* utah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = utah.jpg; sourceTree = "<group>"; };
+		94A5CFEA256C537C00920A8A /* texas_tech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texas_tech.jpg; sourceTree = "<group>"; };
+		94A5CFEB256C537C00920A8A /* washington_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = washington_state.jpg; sourceTree = "<group>"; };
+		94A5CFEC256C537C00920A8A /* washington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = washington.jpg; sourceTree = "<group>"; };
+		94A5CFED256C537C00920A8A /* wake_forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wake_forest.jpg; sourceTree = "<group>"; };
+		94A5CFEE256C537C00920A8A /* texas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texas.jpg; sourceTree = "<group>"; };
+		94A5CFEF256C537C00920A8A /* ucla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ucla.jpg; sourceTree = "<group>"; };
+		94A5CFF0256C537C00920A8A /* usc_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usc_feature.jpg; sourceTree = "<group>"; };
+		94A5CFF1256C537C00920A8A /* texas_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texas_feature.jpg; sourceTree = "<group>"; };
+		94A5CFF2256C537C00920A8A /* virginia_tech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = virginia_tech.jpg; sourceTree = "<group>"; };
+		94A5CFF3256C537C00920A8A /* vanderbilt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vanderbilt.jpg; sourceTree = "<group>"; };
+		94A5CFF4256C537C00920A8A /* west_virginia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = west_virginia.jpg; sourceTree = "<group>"; };
+		94A5CFF5256C537C00920A8A /* tcu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tcu.jpg; sourceTree = "<group>"; };
+		94A5CFF6256C537C00920A8A /* usc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usc.jpg; sourceTree = "<group>"; };
+		94A5CFF7256C537C00920A8A /* texas_a&m_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "texas_a&m_feature.jpg"; sourceTree = "<group>"; };
+		94A5D010256C53B700920A8A /* maryland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maryland.jpg; sourceTree = "<group>"; };
+		94A5D011256C53B700920A8A /* lsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lsu.jpg; sourceTree = "<group>"; };
+		94A5D012256C53B700920A8A /* alabama_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alabama_feature.jpg; sourceTree = "<group>"; };
+		94A5D013256C53B700920A8A /* duke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke.jpg; sourceTree = "<group>"; };
+		94A5D014256C53B800920A8A /* oklahoma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oklahoma.jpg; sourceTree = "<group>"; };
+		94A5D015256C53B800920A8A /* nebraska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nebraska.jpg; sourceTree = "<group>"; };
+		94A5D016256C53B800920A8A /* rutgers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rutgers.jpg; sourceTree = "<group>"; };
+		94A5D017256C53B800920A8A /* clemson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clemson.jpg; sourceTree = "<group>"; };
+		94A5D018256C53B800920A8A /* notre_dame_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notre_dame_feature.jpg; sourceTree = "<group>"; };
+		94A5D019256C53B800920A8A /* florida_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = florida_state.jpg; sourceTree = "<group>"; };
+		94A5D01A256C53B800920A8A /* oregon_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oregon_state.jpg; sourceTree = "<group>"; };
+		94A5D01B256C53B800920A8A /* oklahoma_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oklahoma_state.jpg; sourceTree = "<group>"; };
+		94A5D01C256C53B800920A8A /* ohio_state_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohio_state_feature.jpg; sourceTree = "<group>"; };
+		94A5D01D256C53B800920A8A /* colorado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorado.jpg; sourceTree = "<group>"; };
+		94A5D01E256C53B800920A8A /* oregon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oregon.jpg; sourceTree = "<group>"; };
+		94A5D01F256C53B800920A8A /* iowa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iowa.jpg; sourceTree = "<group>"; };
+		94A5D020256C53B800920A8A /* miss_st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miss_st.jpg; sourceTree = "<group>"; };
+		94A5D021256C53B800920A8A /* kansas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kansas.jpg; sourceTree = "<group>"; };
+		94A5D022256C53B800920A8A /* baylor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baylor.jpg; sourceTree = "<group>"; };
+		94A5D023256C53B800920A8A /* indiana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indiana.jpg; sourceTree = "<group>"; };
+		94A5D024256C53B800920A8A /* purdue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = purdue.jpg; sourceTree = "<group>"; };
+		94A5D025256C53B800920A8A /* alabama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alabama.jpg; sourceTree = "<group>"; };
+		94A5D026256C53B800920A8A /* illinois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = illinois.jpg; sourceTree = "<group>"; };
+		94A5D027256C53B800920A8A /* florida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = florida.jpg; sourceTree = "<group>"; };
+		94A5D028256C53B800920A8A /* michigan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michigan.jpg; sourceTree = "<group>"; };
+		94A5D029256C53B800920A8A /* ohio_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohio_state.jpg; sourceTree = "<group>"; };
+		94A5D02A256C53B800920A8A /* michigan_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michigan_state.jpg; sourceTree = "<group>"; };
+		94A5D02B256C53B800920A8A /* penn_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penn_state.jpg; sourceTree = "<group>"; };
+		94A5D02C256C53B900920A8A /* miami_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miami_feature.jpg; sourceTree = "<group>"; };
+		94A5D02D256C53B900920A8A /* nc_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nc_state.jpg; sourceTree = "<group>"; };
+		94A5D02E256C53B900920A8A /* georgia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgia.jpg; sourceTree = "<group>"; };
+		94A5D02F256C53B900920A8A /* pitt_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pitt_feature.jpg; sourceTree = "<group>"; };
+		94A5D030256C53B900920A8A /* notre_dame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notre_dame.jpg; sourceTree = "<group>"; };
+		94A5D031256C53B900920A8A /* north_carolina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = north_carolina.jpg; sourceTree = "<group>"; };
+		94A5D032256C53B900920A8A /* iowa_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iowa_state.jpg; sourceTree = "<group>"; };
+		94A5D033256C53B900920A8A /* miami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miami.jpg; sourceTree = "<group>"; };
+		94A5D034256C53B900920A8A /* arizona_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arizona_state.jpg; sourceTree = "<group>"; };
+		94A5D035256C53B900920A8A /* northwestern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = northwestern.jpg; sourceTree = "<group>"; };
+		94A5D036256C53B900920A8A /* oklahoma_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oklahoma_feature.jpg; sourceTree = "<group>"; };
+		94A5D037256C53B900920A8A /* minnesota.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minnesota.jpg; sourceTree = "<group>"; };
+		94A5D038256C53B900920A8A /* boston_college.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boston_college.jpg; sourceTree = "<group>"; };
+		94A5D039256C53B900920A8A /* kansas_state.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kansas_state.jpg; sourceTree = "<group>"; };
+		94A5D03A256C53B900920A8A /* clemson_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clemson_feature.jpg; sourceTree = "<group>"; };
+		94A5D03B256C53B900920A8A /* missouri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = missouri.jpg; sourceTree = "<group>"; };
+		94A5D03C256C53B900920A8A /* auburn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = auburn.jpg; sourceTree = "<group>"; };
+		94A5D03D256C53B900920A8A /* cal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cal.jpg; sourceTree = "<group>"; };
+		94A5D03E256C53B900920A8A /* pitt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pitt.jpg; sourceTree = "<group>"; };
+		94A5D03F256C53B900920A8A /* georgia_tech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgia_tech.jpg; sourceTree = "<group>"; };
+		94A5D040256C53B900920A8A /* penn_state_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penn_state_feature.jpg; sourceTree = "<group>"; };
+		94A5D041256C53B900920A8A /* kentucky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kentucky.jpg; sourceTree = "<group>"; };
+		94A5D042256C53BA00920A8A /* michigan_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michigan_feature.jpg; sourceTree = "<group>"; };
+		94A5D043256C53BA00920A8A /* ole_miss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ole_miss.jpg; sourceTree = "<group>"; };
+		94A5D044256C53BA00920A8A /* arkansas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arkansas.jpg; sourceTree = "<group>"; };
+		94A5D045256C53BA00920A8A /* arizona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arizona.jpg; sourceTree = "<group>"; };
+		94A5D046256C53BA00920A8A /* louisville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = louisville.jpg; sourceTree = "<group>"; };
+		94A5D047256C53BA00920A8A /* lsu_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lsu_feature.jpg; sourceTree = "<group>"; };
+		94A5D048256C53BA00920A8A /* oregon_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oregon_feature.jpg; sourceTree = "<group>"; };
+		94A5D084256C54EB00920A8A /* acu_bonus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acu_bonus.jpg; sourceTree = "<group>"; };
+		94A5D08E256C74FB00920A8A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +253,13 @@
 			isa = PBXGroup;
 			children = (
 				9476B507255D8420003AE6B4 /* UserData.swift */,
-				9476B4C0255D7B27003AE6B4 /* LandmarkDetail.swift */,
-				9476B4F8255D8008003AE6B4 /* LandmarkRow.swift */,
-				9476B4FB255D800D003AE6B4 /* LandmarkList.swift */,
+				9476B4C0255D7B27003AE6B4 /* StadiumDetail.swift */,
+				9476B4F8255D8008003AE6B4 /* StadiumRow.swift */,
+				9476B4FB255D800D003AE6B4 /* StadiumList.swift */,
 				9476B4FE255D83F5003AE6B4 /* PageViewController.swift */,
 				9476B501255D83FA003AE6B4 /* PageView.swift */,
 				9476B504255D83FE003AE6B4 /* PageControl.swift */,
+				94A5D08E256C74FB00920A8A /* LaunchScreen.storyboard */,
 				9476B4C2255D7B2A003AE6B4 /* Assets.xcassets */,
 				9476B4C7255D7B2A003AE6B4 /* Info.plist */,
 				9476B4D4255D7DE9003AE6B4 /* Models */,
@@ -151,24 +282,88 @@
 		9476B4CE255D7C41003AE6B4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9476B4CF255D7C55003AE6B4 /* landmarkData.json */,
-				9476B518255D84A6003AE6B4 /* applestore.jpg */,
-				9476B51A255D84A6003AE6B4 /* banderariver_feature.jpg */,
-				9476B50F255D84A5003AE6B4 /* banderariver.jpg */,
-				9476B512255D84A5003AE6B4 /* beltwaypark_feature.jpg */,
-				9476B519255D84A6003AE6B4 /* beltwaypark.jpg */,
-				9476B50D255D84A5003AE6B4 /* brownlibrary.jpg */,
-				9476B514255D84A6003AE6B4 /* jacobsdream_feature.jpg */,
-				9476B50C255D84A5003AE6B4 /* jacobsdream.jpg */,
-				9476B50E255D84A5003AE6B4 /* mabeebusiness.jpg */,
-				9476B510255D84A5003AE6B4 /* mansfieldpark.jpg */,
-				9476B50A255D84A5003AE6B4 /* ost_feature.jpg */,
-				9476B517255D84A6003AE6B4 /* ost.jpg */,
-				9476B513255D84A5003AE6B4 /* shedmarket.jpg */,
-				9476B50B255D84A5003AE6B4 /* thegrace.jpg */,
-				9476B511255D84A5003AE6B4 /* themill_feature.jpg */,
-				9476B515255D84A6003AE6B4 /* themill.jpg */,
-				9476B516255D84A6003AE6B4 /* wildcatstadium.jpg */,
+				94A5D084256C54EB00920A8A /* acu_bonus.jpg */,
+				94A5D012256C53B700920A8A /* alabama_feature.jpg */,
+				94A5D025256C53B800920A8A /* alabama.jpg */,
+				94A5D034256C53B900920A8A /* arizona_state.jpg */,
+				94A5D045256C53BA00920A8A /* arizona.jpg */,
+				94A5D044256C53BA00920A8A /* arkansas.jpg */,
+				94A5D03C256C53B900920A8A /* auburn.jpg */,
+				94A5D022256C53B800920A8A /* baylor.jpg */,
+				94A5D038256C53B900920A8A /* boston_college.jpg */,
+				94A5D03D256C53B900920A8A /* cal.jpg */,
+				94A5D03A256C53B900920A8A /* clemson_feature.jpg */,
+				94A5D017256C53B800920A8A /* clemson.jpg */,
+				94A5D01D256C53B800920A8A /* colorado.jpg */,
+				94A5D013256C53B700920A8A /* duke.jpg */,
+				94A5D019256C53B800920A8A /* florida_state.jpg */,
+				94A5D027256C53B800920A8A /* florida.jpg */,
+				94A5D03F256C53B900920A8A /* georgia_tech.jpg */,
+				94A5D02E256C53B900920A8A /* georgia.jpg */,
+				94A5D026256C53B800920A8A /* illinois.jpg */,
+				94A5D023256C53B800920A8A /* indiana.jpg */,
+				94A5D032256C53B900920A8A /* iowa_state.jpg */,
+				94A5D01F256C53B800920A8A /* iowa.jpg */,
+				94A5D039256C53B900920A8A /* kansas_state.jpg */,
+				94A5D021256C53B800920A8A /* kansas.jpg */,
+				94A5D041256C53B900920A8A /* kentucky.jpg */,
+				94A5D046256C53BA00920A8A /* louisville.jpg */,
+				94A5D047256C53BA00920A8A /* lsu_feature.jpg */,
+				94A5D011256C53B700920A8A /* lsu.jpg */,
+				94A5D010256C53B700920A8A /* maryland.jpg */,
+				94A5D02C256C53B900920A8A /* miami_feature.jpg */,
+				94A5D033256C53B900920A8A /* miami.jpg */,
+				94A5D042256C53BA00920A8A /* michigan_feature.jpg */,
+				94A5D02A256C53B800920A8A /* michigan_state.jpg */,
+				94A5D028256C53B800920A8A /* michigan.jpg */,
+				94A5D037256C53B900920A8A /* minnesota.jpg */,
+				94A5D020256C53B800920A8A /* miss_st.jpg */,
+				94A5D03B256C53B900920A8A /* missouri.jpg */,
+				94A5D02D256C53B900920A8A /* nc_state.jpg */,
+				94A5D015256C53B800920A8A /* nebraska.jpg */,
+				94A5D031256C53B900920A8A /* north_carolina.jpg */,
+				94A5D035256C53B900920A8A /* northwestern.jpg */,
+				94A5D018256C53B800920A8A /* notre_dame_feature.jpg */,
+				94A5D030256C53B900920A8A /* notre_dame.jpg */,
+				94A5D01C256C53B800920A8A /* ohio_state_feature.jpg */,
+				94A5D029256C53B800920A8A /* ohio_state.jpg */,
+				94A5D036256C53B900920A8A /* oklahoma_feature.jpg */,
+				94A5D01B256C53B800920A8A /* oklahoma_state.jpg */,
+				94A5D014256C53B800920A8A /* oklahoma.jpg */,
+				94A5D043256C53BA00920A8A /* ole_miss.jpg */,
+				94A5D048256C53BA00920A8A /* oregon_feature.jpg */,
+				94A5D01A256C53B800920A8A /* oregon_state.jpg */,
+				94A5D01E256C53B800920A8A /* oregon.jpg */,
+				94A5D040256C53B900920A8A /* penn_state_feature.jpg */,
+				94A5D02B256C53B800920A8A /* penn_state.jpg */,
+				94A5D02F256C53B900920A8A /* pitt_feature.jpg */,
+				94A5D03E256C53B900920A8A /* pitt.jpg */,
+				94A5D024256C53B800920A8A /* purdue.jpg */,
+				94A5D016256C53B800920A8A /* rutgers.jpg */,
+				94A5CFE3256C537C00920A8A /* south_carolina.jpg */,
+				94A5CFE2256C537C00920A8A /* stanford.jpg */,
+				94A5CFE6256C537C00920A8A /* syracuse.jpg */,
+				94A5CFF5256C537C00920A8A /* tcu.jpg */,
+				94A5CFE8256C537C00920A8A /* tennessee.jpg */,
+				94A5CFF7256C537C00920A8A /* texas_a&m_feature.jpg */,
+				94A5CFE7256C537C00920A8A /* texas_a&m.jpg */,
+				94A5CFF1256C537C00920A8A /* texas_feature.jpg */,
+				94A5CFEA256C537C00920A8A /* texas_tech.jpg */,
+				94A5CFEE256C537C00920A8A /* texas.jpg */,
+				94A5CFE4256C537C00920A8A /* ucla_feature.jpg */,
+				94A5CFEF256C537C00920A8A /* ucla.jpg */,
+				94A5CFF0256C537C00920A8A /* usc_feature.jpg */,
+				94A5CFF6256C537C00920A8A /* usc.jpg */,
+				94A5CFE9256C537C00920A8A /* utah.jpg */,
+				94A5CFF3256C537C00920A8A /* vanderbilt.jpg */,
+				94A5CFF2256C537C00920A8A /* virginia_tech.jpg */,
+				94A5CFE5256C537C00920A8A /* virginia.jpg */,
+				94A5CFED256C537C00920A8A /* wake_forest.jpg */,
+				94A5CFEB256C537C00920A8A /* washington_state.jpg */,
+				94A5CFEC256C537C00920A8A /* washington.jpg */,
+				94A5CFF4256C537C00920A8A /* west_virginia.jpg */,
+				94A5CFE1256C537C00920A8A /* wisconsin.jpg */,
+				9476B4CF255D7C55003AE6B4 /* stadiumData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -187,7 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				9476B4D6255D7E14003AE6B4 /* Data.swift */,
-				9476B4D9255D7E1E003AE6B4 /* Landmark.swift */,
+				9476B4D9255D7E1E003AE6B4 /* Stadiums.swift */,
 				9476B4DC255D7E24003AE6B4 /* Profile.swift */,
 			);
 			path = Models;
@@ -200,7 +395,7 @@
 				9476B4DF255D7E63003AE6B4 /* CircleImage.swift */,
 				9476B4E2255D7E6B003AE6B4 /* MapView.swift */,
 				9476B4E5255D7EB0003AE6B4 /* Home.swift */,
-				9476B4E8255D7EBC003AE6B4 /* CategoryRow.swift */,
+				9476B4E8255D7EBC003AE6B4 /* ConferenceRow.swift */,
 				9476B4EB255D7EC1003AE6B4 /* FeatureCard.swift */,
 			);
 			path = "Supporting Views";
@@ -263,26 +458,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9476B527255D84A6003AE6B4 /* wildcatstadium.jpg in Resources */,
+				94A5CFFA256C537C00920A8A /* south_carolina.jpg in Resources */,
+				94A5D074256C53BA00920A8A /* missouri.jpg in Resources */,
+				94A5CFF9256C537C00920A8A /* stanford.jpg in Resources */,
+				94A5D060256C53BA00920A8A /* florida.jpg in Resources */,
 				9476B4C6255D7B2A003AE6B4 /* Preview Assets.xcassets in Resources */,
-				9476B521255D84A6003AE6B4 /* mansfieldpark.jpg in Resources */,
-				9476B51C255D84A6003AE6B4 /* thegrace.jpg in Resources */,
+				94A5CFFD256C537C00920A8A /* syracuse.jpg in Resources */,
+				94A5D06F256C53BA00920A8A /* oklahoma_feature.jpg in Resources */,
+				94A5CFFC256C537C00920A8A /* virginia.jpg in Resources */,
+				94A5D04F256C53BA00920A8A /* rutgers.jpg in Resources */,
+				94A5D070256C53BA00920A8A /* minnesota.jpg in Resources */,
+				94A5CFF8256C537C00920A8A /* wisconsin.jpg in Resources */,
+				94A5D06B256C53BA00920A8A /* iowa_state.jpg in Resources */,
+				94A5D068256C53BA00920A8A /* pitt_feature.jpg in Resources */,
+				94A5D072256C53BA00920A8A /* kansas_state.jpg in Resources */,
+				94A5D04D256C53BA00920A8A /* oklahoma.jpg in Resources */,
+				94A5D05E256C53BA00920A8A /* alabama.jpg in Resources */,
+				94A5D076256C53BA00920A8A /* cal.jpg in Resources */,
+				94A5D05F256C53BA00920A8A /* illinois.jpg in Resources */,
+				94A5D057256C53BA00920A8A /* oregon.jpg in Resources */,
+				94A5D064256C53BA00920A8A /* penn_state.jpg in Resources */,
+				94A5D06A256C53BA00920A8A /* north_carolina.jpg in Resources */,
+				94A5D063256C53BA00920A8A /* michigan_state.jpg in Resources */,
+				94A5D00C256C537C00920A8A /* tcu.jpg in Resources */,
+				94A5D065256C53BA00920A8A /* miami_feature.jpg in Resources */,
+				94A5D04B256C53BA00920A8A /* alabama_feature.jpg in Resources */,
+				94A5D006256C537C00920A8A /* ucla.jpg in Resources */,
+				94A5D002256C537C00920A8A /* washington_state.jpg in Resources */,
+				94A5D06E256C53BA00920A8A /* northwestern.jpg in Resources */,
 				9476B4C3255D7B2A003AE6B4 /* Assets.xcassets in Resources */,
-				9476B524255D84A6003AE6B4 /* shedmarket.jpg in Resources */,
-				9476B4D0255D7C55003AE6B4 /* landmarkData.json in Resources */,
-				9476B525255D84A6003AE6B4 /* jacobsdream_feature.jpg in Resources */,
-				9476B52A255D84A6003AE6B4 /* beltwaypark.jpg in Resources */,
-				9476B526255D84A6003AE6B4 /* themill.jpg in Resources */,
-				9476B522255D84A6003AE6B4 /* themill_feature.jpg in Resources */,
-				9476B52B255D84A6003AE6B4 /* banderariver_feature.jpg in Resources */,
-				9476B529255D84A6003AE6B4 /* applestore.jpg in Resources */,
-				9476B51B255D84A6003AE6B4 /* ost_feature.jpg in Resources */,
-				9476B528255D84A6003AE6B4 /* ost.jpg in Resources */,
-				9476B523255D84A6003AE6B4 /* beltwaypark_feature.jpg in Resources */,
-				9476B520255D84A6003AE6B4 /* banderariver.jpg in Resources */,
-				9476B51E255D84A6003AE6B4 /* brownlibrary.jpg in Resources */,
-				9476B51F255D84A6003AE6B4 /* mabeebusiness.jpg in Resources */,
-				9476B51D255D84A6003AE6B4 /* jacobsdream.jpg in Resources */,
+				94A5D04C256C53BA00920A8A /* duke.jpg in Resources */,
+				94A5D050256C53BA00920A8A /* clemson.jpg in Resources */,
+				94A5D049256C53BA00920A8A /* maryland.jpg in Resources */,
+				94A5D009256C537C00920A8A /* virginia_tech.jpg in Resources */,
+				94A5D07E256C53BA00920A8A /* arizona.jpg in Resources */,
+				94A5D00E256C537D00920A8A /* texas_a&m_feature.jpg in Resources */,
+				94A5D058256C53BA00920A8A /* iowa.jpg in Resources */,
+				94A5D00B256C537C00920A8A /* west_virginia.jpg in Resources */,
+				94A5D04E256C53BA00920A8A /* nebraska.jpg in Resources */,
+				9476B4D0255D7C55003AE6B4 /* stadiumData.json in Resources */,
+				94A5CFFE256C537C00920A8A /* texas_a&m.jpg in Resources */,
+				94A5D055256C53BA00920A8A /* ohio_state_feature.jpg in Resources */,
+				94A5D07A256C53BA00920A8A /* kentucky.jpg in Resources */,
+				94A5D05B256C53BA00920A8A /* baylor.jpg in Resources */,
+				94A5D05C256C53BA00920A8A /* indiana.jpg in Resources */,
+				94A5D07F256C53BA00920A8A /* louisville.jpg in Resources */,
+				94A5D081256C53BA00920A8A /* oregon_feature.jpg in Resources */,
+				94A5D056256C53BA00920A8A /* colorado.jpg in Resources */,
+				94A5D085256C54EB00920A8A /* acu_bonus.jpg in Resources */,
+				94A5D06C256C53BA00920A8A /* miami.jpg in Resources */,
+				94A5D004256C537C00920A8A /* wake_forest.jpg in Resources */,
+				94A5D00A256C537C00920A8A /* vanderbilt.jpg in Resources */,
+				94A5CFFF256C537C00920A8A /* tennessee.jpg in Resources */,
+				94A5D051256C53BA00920A8A /* notre_dame_feature.jpg in Resources */,
+				94A5CFFB256C537C00920A8A /* ucla_feature.jpg in Resources */,
+				94A5D062256C53BA00920A8A /* ohio_state.jpg in Resources */,
+				94A5D059256C53BA00920A8A /* miss_st.jpg in Resources */,
+				94A5D000256C537C00920A8A /* utah.jpg in Resources */,
+				94A5D066256C53BA00920A8A /* nc_state.jpg in Resources */,
+				94A5D08F256C74FB00920A8A /* LaunchScreen.storyboard in Resources */,
+				94A5D073256C53BA00920A8A /* clemson_feature.jpg in Resources */,
+				94A5D054256C53BA00920A8A /* oklahoma_state.jpg in Resources */,
+				94A5D007256C537C00920A8A /* usc_feature.jpg in Resources */,
+				94A5D07C256C53BA00920A8A /* ole_miss.jpg in Resources */,
+				94A5D05A256C53BA00920A8A /* kansas.jpg in Resources */,
+				94A5D00D256C537C00920A8A /* usc.jpg in Resources */,
+				94A5D06D256C53BA00920A8A /* arizona_state.jpg in Resources */,
+				94A5D061256C53BA00920A8A /* michigan.jpg in Resources */,
+				94A5D07D256C53BA00920A8A /* arkansas.jpg in Resources */,
+				94A5D008256C537C00920A8A /* texas_feature.jpg in Resources */,
+				94A5D001256C537C00920A8A /* texas_tech.jpg in Resources */,
+				94A5D003256C537C00920A8A /* washington.jpg in Resources */,
+				94A5D078256C53BA00920A8A /* georgia_tech.jpg in Resources */,
+				94A5D079256C53BA00920A8A /* penn_state_feature.jpg in Resources */,
+				94A5D067256C53BA00920A8A /* georgia.jpg in Resources */,
+				94A5D005256C537C00920A8A /* texas.jpg in Resources */,
+				94A5D052256C53BA00920A8A /* florida_state.jpg in Resources */,
+				94A5D07B256C53BA00920A8A /* michigan_feature.jpg in Resources */,
+				94A5D04A256C53BA00920A8A /* lsu.jpg in Resources */,
+				94A5D077256C53BA00920A8A /* pitt.jpg in Resources */,
+				94A5D071256C53BA00920A8A /* boston_college.jpg in Resources */,
+				94A5D05D256C53BA00920A8A /* purdue.jpg in Resources */,
+				94A5D053256C53BA00920A8A /* oregon_state.jpg in Resources */,
+				94A5D075256C53BA00920A8A /* auburn.jpg in Resources */,
+				94A5D080256C53BA00920A8A /* lsu_feature.jpg in Resources */,
+				94A5D069256C53BA00920A8A /* notre_dame.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,21 +554,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9476B4E3255D7E6B003AE6B4 /* MapView.swift in Sources */,
-				9476B4C1255D7B27003AE6B4 /* LandmarkDetail.swift in Sources */,
+				9476B4C1255D7B27003AE6B4 /* StadiumDetail.swift in Sources */,
 				9476B505255D83FE003AE6B4 /* PageControl.swift in Sources */,
 				9476B508255D8420003AE6B4 /* UserData.swift in Sources */,
 				9476B4F2255D7F56003AE6B4 /* ProfileSummary.swift in Sources */,
 				9476B4DD255D7E24003AE6B4 /* Profile.swift in Sources */,
-				9476B4FC255D800D003AE6B4 /* LandmarkList.swift in Sources */,
+				9476B4FC255D800D003AE6B4 /* StadiumList.swift in Sources */,
 				9476B4F5255D7F59003AE6B4 /* ProfileEditor.swift in Sources */,
 				9476B4D7255D7E15003AE6B4 /* Data.swift in Sources */,
 				9476B4EC255D7EC1003AE6B4 /* FeatureCard.swift in Sources */,
 				9476B4BF255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift in Sources */,
-				9476B4DA255D7E1E003AE6B4 /* Landmark.swift in Sources */,
+				9476B4DA255D7E1E003AE6B4 /* Stadiums.swift in Sources */,
 				9476B4E6255D7EB0003AE6B4 /* Home.swift in Sources */,
-				9476B4E9255D7EBC003AE6B4 /* CategoryRow.swift in Sources */,
+				9476B4E9255D7EBC003AE6B4 /* ConferenceRow.swift in Sources */,
 				9476B4E0255D7E63003AE6B4 /* CircleImage.swift in Sources */,
-				9476B4F9255D8008003AE6B4 /* LandmarkRow.swift in Sources */,
+				9476B4F9255D8008003AE6B4 /* StadiumRow.swift in Sources */,
 				9476B4EF255D7F52003AE6B4 /* ProfileHost.swift in Sources */,
 				9476B502255D83FA003AE6B4 /* PageView.swift in Sources */,
 				9476B4FF255D83F6003AE6B4 /* PageViewController.swift in Sources */,

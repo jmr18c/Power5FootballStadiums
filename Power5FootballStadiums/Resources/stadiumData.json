@@ -1,0 +1,1983 @@
+[
+
+    {
+
+        "stadium": "Alumni Stadium",
+
+        "conference": "ACC",
+
+        "city": "Chestnut Hill",
+
+        "state": "Massachusetts",
+
+        "id": 1001,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Boston College Eagles",
+
+        "coordinates": {
+
+            "longitude": -71.1664,
+
+            "latitude": 42.3352
+
+        },
+
+        "image": "boston_college"
+
+    },
+
+    {
+
+        "stadium": "Memorial Stadium - \"Death Valley\"",
+
+        "conference": "ACC",
+
+        "city": "Clemson",
+
+        "state": "South Carolina",
+
+        "id": 1002,
+
+        "featured": true,
+
+        "favorite": true,
+
+        "team": "Clemson Tigers",
+
+        "coordinates": {
+
+            "longitude": -82.8432,
+
+            "latitude": 34.6788
+
+        },
+
+        "image": "clemson"
+
+    },
+
+    {
+
+        "stadium": "Wallace Wade Stadium",
+
+        "conference": "ACC",
+
+        "city": "Durham",
+
+        "state": "North Carolina",
+
+        "id": 1003,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Duke Blue Devils",
+
+        "coordinates": {
+
+            "longitude": -78.9417,
+
+            "latitude": 35.9954
+
+        },
+
+        "image": "duke"
+
+    },
+
+    {
+
+        "stadium": "Doak Campbell Stadium",
+
+        "conference": "ACC",
+
+        "city": "Tallahassee",
+
+        "state": "Florida",
+
+        "id": 1004,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Florida State Seminoles",
+
+        "coordinates": {
+
+            "longitude": -84.3044,
+
+            "latitude": 30.4382
+
+        },
+
+        "image": "florida_state"
+
+    },
+
+    {
+
+        "stadium": "Bobby Dodd Stadium",
+
+        "conference": "ACC",
+
+        "city": "Atlanta",
+
+        "state": "Georgia",
+
+        "id": 1005,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Georgia Tech Yellow Jackets",
+
+        "coordinates": {
+
+            "longitude": -84.3928,
+
+            "latitude": 33.7725
+
+        },
+
+        "image": "georgia_tech"
+
+    },
+
+    {
+
+        "stadium": "Cardinal Stadium",
+
+        "conference": "ACC",
+
+        "city": "Louisville",
+
+        "state": "Kentucky",
+
+        "id": 1006,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Louisville Cardinals",
+
+        "coordinates": {
+
+            "longitude": -85.7588,
+
+            "latitude": 38.2059
+
+        },
+
+        "image": "louisville"
+
+    },
+
+    {
+
+        "stadium": "Hard Rock Stadium",
+
+        "conference": "ACC",
+
+        "city": "Miami Gardens",
+
+        "state": "Florida",
+
+        "id": 1007,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "Miami Hurricanes",
+
+        "coordinates": {
+
+            "longitude": -80.2388,
+
+            "latitude": 25.9580
+
+        },
+
+        "image": "miami"
+
+    },
+
+    {
+
+        "stadium": "Kenan Memorial Stadium",
+
+        "conference": "ACC",
+
+        "city": "Chapel Hill",
+
+        "state": "North Carolina",
+
+        "id": 1008,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "North Carolina Tar Heels",
+
+        "coordinates": {
+
+            "longitude": -79.0478,
+
+            "latitude": 35.9070
+
+        },
+
+        "image": "north_carolina"
+
+    },
+
+    {
+
+        "stadium": "Carter-Finley Stadium",
+
+        "conference": "ACC",
+
+        "city": "Raleigh",
+
+        "state": "North Carolina",
+
+        "id": 1009,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "NC State Wolfpack",
+
+        "coordinates": {
+
+            "longitude": -78.7194,
+
+            "latitude": 35.8008
+
+        },
+
+        "image": "nc_state"
+
+    },
+
+    {
+
+        "stadium": "Heinz Field",
+
+        "conference": "ACC",
+
+        "city": "Pittsburgh",
+
+        "state": "Pennsylvania",
+
+        "id": 1010,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "Pittsburgh Panthers",
+
+        "coordinates": {
+
+            "longitude": -80.0158,
+
+            "latitude": 40.4468
+
+        },
+
+        "image": "pitt"
+
+    },
+
+    {
+
+        "stadium": "Carrier Dome",
+
+        "conference": "ACC",
+
+        "city": "Syracuse",
+
+        "state": "New York",
+
+        "id": 1011,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Syracuse Orange",
+
+        "coordinates": {
+
+            "longitude": -76.1363,
+
+            "latitude": 43.0362
+
+        },
+
+        "image": "syracuse"
+
+    },
+
+    {
+
+        "stadium": "Scott Stadium",
+
+        "conference": "ACC",
+
+        "city": "Charlottesville",
+
+        "state": "Virginia",
+
+        "id": 1012,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Virginia Cavaliers",
+
+        "coordinates": {
+
+            "longitude": -78.5136,
+
+            "latitude": 38.0311
+
+        },
+
+        "image": "virginia"
+
+    },
+
+    {
+
+        "stadium": "Lane Stadium",
+
+        "conference": "ACC",
+
+        "city": "Blacksburg",
+
+        "state": "Virginia",
+
+        "id": 1013,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Virginia Tech Hokies",
+
+        "coordinates": {
+
+            "longitude": -80.4180,
+
+            "latitude": 37.2200
+
+        },
+
+        "image": "virginia_tech"
+
+    },
+
+    {
+
+        "stadium": "Truist Stadium",
+
+        "conference": "ACC",
+
+        "city": "Winston-Salem",
+
+        "state": "North Carolina",
+
+        "id": 1014,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Wake Forest Demon Deacons",
+
+        "coordinates": {
+
+            "longitude": -80.2546,
+
+            "latitude": 36.1306
+
+        },
+
+        "image": "wake_forest"
+
+    },
+
+    {
+
+        "stadium": "Notre Dame Stadium",
+
+        "conference": "ACC",
+
+        "city": "Notre Dame",
+
+        "state": "Indiana",
+
+        "id": 1015,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "Notre Dame Fighting Irish",
+
+        "coordinates": {
+
+            "longitude": -86.2339,
+
+            "latitude": 41.6984
+
+        },
+
+        "image": "notre_dame"
+
+    },
+
+    {
+
+        "stadium": "Memorial Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "Champaign",
+
+        "state": "Illinois",
+
+        "id": 1016,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Illinois Fighting Illini",
+
+        "coordinates": {
+
+            "longitude": -88.2360,
+
+            "latitude": 40.0993
+
+        },
+
+        "image": "illinois"
+
+    },
+
+    {
+
+        "stadium": "Memorial Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "Bloomington",
+
+        "state": "Indiana",
+
+        "id": 1017,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Indiana Hoosiers",
+
+        "coordinates": {
+
+            "longitude": -86.5255,
+
+            "latitude": 39.1809
+
+        },
+
+        "image": "indiana"
+
+    },
+
+    {
+
+        "stadium": "Kinnick Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "Iowa City",
+
+        "state": "Iowa",
+
+        "id": 1018,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Iowa Hawkeyes",
+
+        "coordinates": {
+
+            "longitude": -91.5510,
+
+            "latitude": 41.6586
+
+        },
+
+        "image": "iowa"
+
+    },
+
+    {
+
+        "stadium": "Maryland Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "College Park",
+
+        "state": "Maryland",
+
+        "id": 1019,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Maryland Terrapins",
+
+        "coordinates": {
+
+            "longitude": -76.9472,
+
+            "latitude": 38.9903
+
+        },
+
+        "image": "maryland"
+
+    },
+
+    {
+
+        "stadium": "Michigan Stadium - \"The Big House\"",
+
+        "conference": "Big Ten",
+
+        "city": "Ann Arbor",
+
+        "state": "Michigan",
+
+        "id": 1020,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "Michigan Wolverines",
+
+        "coordinates": {
+
+            "longitude": -83.7487,
+
+            "latitude": 42.2659
+
+        },
+
+        "image": "michigan"
+
+    },
+
+    {
+
+        "stadium": "Spartan Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "East Lansing",
+
+        "state": "Michigan",
+
+        "id": 1021,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Michigan State Spartans",
+
+        "coordinates": {
+
+            "longitude": -84.4847,
+
+            "latitude": 42.7282
+
+        },
+
+        "image": "michigan_state"
+
+    },
+
+    {
+
+        "stadium": "TCF Bank Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "Minneapolis",
+
+        "state": "Minnesota",
+
+        "id": 1022,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Minnesota Golden Gophers",
+
+        "coordinates": {
+
+            "longitude": -93.2245,
+
+            "latitude": 44.9765
+
+        },
+
+        "image": "minnesota"
+
+    },
+
+    {
+
+        "stadium": "Memorial Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "Lincoln",
+
+        "state": "Nebraska",
+
+        "id": 1023,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Nebraska Cornhuskers",
+
+        "coordinates": {
+
+            "longitude": -96.7056,
+
+            "latitude": 40.8206
+
+        },
+
+        "image": "nebraska"
+
+    },
+
+    {
+
+        "stadium": "Ryan Field (Stadium)",
+
+        "conference": "Big Ten",
+
+        "city": "Evanston",
+
+        "state": "Illinois",
+
+        "id": 1024,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Northwestern Wildcats",
+
+        "coordinates": {
+
+            "longitude": -87.6925,
+
+            "latitude": 42.0654
+
+        },
+
+        "image": "northwestern"
+
+    },
+
+    {
+
+        "stadium": "Ohio Stadium - \"The Shoe\"",
+
+        "conference": "Big Ten",
+
+        "city": "Columbus",
+
+        "state": "Ohio",
+
+        "id": 1025,
+
+        "featured": true,
+
+        "favorite": true,
+
+        "team": "Ohio State Buckeyes",
+
+        "coordinates": {
+
+            "longitude": -83.0197,
+
+            "latitude": 40.0016
+
+        },
+
+        "image": "ohio_state"
+
+    },
+
+    {
+
+        "stadium": "Beaver Stadium - \"Happy Valley\"",
+
+        "conference": "Big Ten",
+
+        "city": "University Park",
+
+        "state": "Pennsylvania",
+
+        "id": 1026,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "Penn State Nittany Lions",
+
+        "coordinates": {
+
+            "longitude": -77.8561,
+
+            "latitude": 40.8122
+
+        },
+
+        "image": "penn_state"
+
+    },
+
+    {
+
+        "stadium": "Ross-Ade Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "West Lafayette",
+
+        "state": "Indiana",
+
+        "id": 1027,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Purdue Boilermakers",
+
+        "coordinates": {
+
+            "longitude": -86.9184,
+
+            "latitude": 40.4344
+
+        },
+
+        "image": "purdue"
+
+    },
+
+    {
+
+        "stadium": "SHI Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "Piscataway",
+
+        "state": "New Jersey",
+
+        "id": 1028,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Rutgers Scarlet Knights",
+
+        "coordinates": {
+
+            "longitude": -74.4653,
+
+            "latitude": 40.5136
+
+        },
+
+        "image": "rutgers"
+
+    },
+
+    {
+
+        "stadium": "Camp Randall Stadium",
+
+        "conference": "Big Ten",
+
+        "city": "Madison",
+
+        "state": "Wisconsin",
+
+        "id": 1029,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Wisconsin Badgers",
+
+        "coordinates": {
+
+            "longitude": -89.4127,
+
+            "latitude": 43.0699
+
+        },
+
+        "image": "wisconsin"
+
+    },
+
+    {
+
+        "stadium": "McLane Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Waco",
+
+        "state": "Texas",
+
+        "id": 1030,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Baylor Bears",
+
+        "coordinates": {
+
+            "longitude": -97.1156,
+
+            "latitude": 31.5582
+
+        },
+
+        "image": "baylor"
+
+    },
+
+    {
+
+        "stadium": "Jack Trice Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Ames",
+
+        "state": "Iowa",
+
+        "id": 1031,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Iowa State Cyclones",
+
+        "coordinates": {
+
+            "longitude": -93.6358,
+
+            "latitude": 42.0140
+
+        },
+
+        "image": "iowa_state"
+
+    },
+
+    {
+
+        "stadium": "David Booth Kansas Memorial Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Lawrence",
+
+        "state": "Kansas",
+
+        "id": 1032,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Kansas Jayhawks",
+
+        "coordinates": {
+
+            "longitude": -95.2463,
+
+            "latitude": 38.9630
+
+        },
+
+        "image": "kansas"
+
+    },
+
+    {
+
+        "stadium": "Bill Snyder Family Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Manhattan",
+
+        "state": "Kansas",
+
+        "id": 1033,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Kansas State Wildcats",
+
+        "coordinates": {
+
+            "longitude": -96.5938,
+
+            "latitude": 39.2020
+
+        },
+
+        "image": "kansas_state"
+
+    },
+
+    {
+
+        "stadium": "Gaylord Family-Oklahoma Memorial Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Norman",
+
+        "state": "Oklahoma",
+
+        "id": 1034,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "Oklahoma Sooners",
+
+        "coordinates": {
+
+            "longitude": -97.4423,
+
+            "latitude": 35.2058
+
+        },
+
+        "image": "oklahoma"
+
+    },
+
+    {
+
+        "stadium": "Boone Pickens Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Stillwater",
+
+        "state": "Oklahoma",
+
+        "id": 1035,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Oklahoma State Cowboys",
+
+        "coordinates": {
+
+            "longitude": -97.0665,
+
+            "latitude": 36.1257
+
+        },
+
+        "image": "oklahoma_state"
+
+    },
+
+    {
+
+        "stadium": "Amon G. Carter Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Fort Worth",
+
+        "state": "Texas",
+
+        "id": 1036,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "TCU Horned Frogs",
+
+        "coordinates": {
+
+            "longitude": -97.3681,
+
+            "latitude": 32.7096
+
+        },
+
+        "image": "tcu"
+
+    },
+
+    {
+
+        "stadium": "Darrell K Royal-Texas Memorial Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Austin",
+
+        "state": "Texas",
+
+        "id": 1037,
+
+        "featured": true,
+
+        "favorite": true,
+
+        "team": "Texas Longhorns",
+
+        "coordinates": {
+
+            "longitude": -97.7325,
+
+            "latitude": 30.2837
+
+        },
+
+        "image": "texas"
+
+    },
+
+    {
+
+        "stadium": "Jones AT&T Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Lubbock",
+
+        "state": "Texas",
+
+        "id": 1038,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Texas Tech Red Raiders",
+
+        "coordinates": {
+
+            "longitude": -101.8729,
+
+            "latitude": 33.5911
+
+        },
+
+        "image": "texas_tech"
+
+    },
+
+    {
+
+        "stadium": "Milan Puskar Stadium",
+
+        "conference": "Big 12",
+
+        "city": "Morgantown",
+
+        "state": "West Virginia",
+
+        "id": 1039,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "West Virginia Mountaineers",
+
+        "coordinates": {
+
+            "longitude": -79.9551,
+
+            "latitude": 39.6502
+
+        },
+
+        "image": "west_virginia"
+
+    },
+
+    {
+
+        "stadium": "Arizona Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Tucson",
+
+        "state": "Arizona",
+
+        "id": 1040,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Arizona Wildcats",
+
+        "coordinates": {
+
+            "longitude": -110.9488,
+
+            "latitude": 32.2288
+
+        },
+
+        "image": "arizona"
+
+    },
+
+    {
+
+        "stadium": "Sun Devil Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Tempe",
+
+        "state": "Arizona",
+
+        "id": 1041,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Arizona State Sun Devilss",
+
+        "coordinates": {
+
+            "longitude": -111.9325,
+
+            "latitude": 33.4264
+
+        },
+
+        "image": "arizona_state"
+
+    },
+
+    {
+
+        "stadium": "California Memorial Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Berkeley",
+
+        "state": "California",
+
+        "id": 1042,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "California Golden Bears",
+
+        "coordinates": {
+
+            "longitude": -122.2508,
+
+            "latitude": 37.8710
+
+        },
+
+        "image": "cal"
+
+    },
+
+    {
+
+        "stadium": "Rose Bowl Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Pasadena",
+
+        "state": "California",
+
+        "id": 1043,
+
+        "featured": true,
+
+        "favorite": true,
+
+        "team": "UCLA Bruins",
+
+        "coordinates": {
+
+            "longitude": -118.1676,
+
+            "latitude": 34.1613
+
+        },
+
+        "image": "ucla"
+
+    },
+
+    {
+
+        "stadium": "Folsom Field (Stadium)",
+
+        "conference": "Pac-12",
+
+        "city": "Boulder",
+
+        "state": "Colorado",
+
+        "id": 1044,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Colorado Buffaloes",
+
+        "coordinates": {
+
+            "longitude": -105.2669,
+
+            "latitude": 40.0094
+
+        },
+
+        "image": "colorado"
+
+    },
+
+    {
+
+        "stadium": "Autzen Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Eugene",
+
+        "state": "Oregon",
+
+        "id": 1045,
+
+        "featured": true,
+
+        "favorite": true,
+
+        "team": "Oregon Ducks",
+
+        "coordinates": {
+
+            "longitude": -123.0685,
+
+            "latitude": 44.0583
+
+        },
+
+        "image": "oregon"
+
+    },
+
+    {
+
+        "stadium": "Reser Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Corvallis",
+
+        "state": "Oregon",
+
+        "id": 1046,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Oregon State Beavers",
+
+        "coordinates": {
+
+            "longitude": -123.2814,
+
+            "latitude": 44.5595
+
+        },
+
+        "image": "oregon_state"
+
+    },
+
+    {
+
+        "stadium": "LA Memorial Coliseum",
+
+        "conference": "Pac-12",
+
+        "city": "Los Angeles",
+
+        "state": "California",
+
+        "id": 1047,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "USC Trojans",
+
+        "coordinates": {
+
+            "longitude": -118.2881,
+
+            "latitude": 34.0140
+
+        },
+
+        "image": "usc"
+
+    },
+
+    {
+
+        "stadium": "Stanford Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Stanford",
+
+        "state": "California",
+
+        "id": 1048,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Stanford Cardinal",
+
+        "coordinates": {
+
+            "longitude": -122.1611,
+
+            "latitude": 37.4345
+
+        },
+
+        "image": "stanford"
+
+    },
+
+    {
+
+        "stadium": "Rice-Eccles Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Salt Lake City",
+
+        "state": "Utah",
+
+        "id": 1049,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Utah Utes",
+
+        "coordinates": {
+
+            "longitude": -111.8489,
+
+            "latitude": 40.7600
+
+        },
+
+        "image": "utah"
+
+    },
+
+    {
+
+        "stadium": "Husky Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Seattle",
+
+        "state": "Washington",
+
+        "id": 1050,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Washington Huskies",
+
+        "coordinates": {
+
+            "longitude": -122.3016,
+
+            "latitude": 47.6503
+
+        },
+
+        "image": "washington"
+
+    },
+
+    {
+
+        "stadium": "Martin Stadium",
+
+        "conference": "Pac-12",
+
+        "city": "Pullman",
+
+        "state": "Washington",
+
+        "id": 1051,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Washington State Cougars",
+
+        "coordinates": {
+
+            "longitude": -117.1604,
+
+            "latitude": 46.7318
+
+        },
+
+        "image": "washington_state"
+
+    },
+
+    {
+
+        "stadium": "Bryant-Denny Stadium",
+
+        "conference": "SEC",
+
+        "city": "Tuscaloosa",
+
+        "state": "Alabama",
+
+        "id": 1052,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "Alabama Crimson Tide",
+
+        "coordinates": {
+
+            "longitude": -87.5505,
+
+            "latitude": 33.2077
+
+        },
+
+        "image": "alabama"
+
+    },
+
+    {
+
+        "stadium": "Donald W. Reynolds Razorback Stadium",
+
+        "conference": "SEC",
+
+        "city": "Fayetteville",
+
+        "state": "Arkansas",
+
+        "id": 1053,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Arkansas Razorbacks",
+
+        "coordinates": {
+
+            "longitude": -94.1790,
+
+            "latitude": 36.0681
+
+        },
+
+        "image": "arkansas"
+
+    },
+
+    {
+
+        "stadium": "Jordan-Hare Stadium",
+
+        "conference": "SEC",
+
+        "city": "Auburn",
+
+        "state": "Alabama",
+
+        "id": 1054,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Auburn Tigers",
+
+        "coordinates": {
+
+            "longitude": -85.4891,
+
+            "latitude": 32.6022
+
+        },
+
+        "image": "auburn"
+
+    },
+
+    {
+
+        "stadium": "Ben Hill Griffin Stadium",
+
+        "conference": "SEC",
+
+        "city": "Gainesville",
+
+        "state": "Florida",
+
+        "id": 1055,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Florida Gators",
+
+        "coordinates": {
+
+            "longitude": -82.3486,
+
+            "latitude": 29.6499
+
+        },
+
+        "image": "florida"
+
+    },
+
+    {
+
+        "stadium": "Sanford Stadium",
+
+        "conference": "SEC",
+
+        "city": "Athens",
+
+        "state": "Georgia",
+
+        "id": 1056,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Georgia Bulldogs",
+
+        "coordinates": {
+
+            "longitude": -83.3734,
+
+            "latitude": 33.9498
+
+        },
+
+        "image": "georgia"
+
+    },
+
+    {
+
+        "stadium": "Kroger Field (Stadium)",
+
+        "conference": "SEC",
+
+        "city": "Lexington",
+
+        "state": "Kentucky",
+
+        "id": 1057,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Kentucky Wildcats",
+
+        "coordinates": {
+
+            "longitude": -84.5052,
+
+            "latitude": 38.0227
+
+        },
+
+        "image": "kentucky"
+
+    },
+
+    {
+
+        "stadium": "Tiger Stadium - \"Death Valley\"",
+
+        "conference": "SEC",
+
+        "city": "Baton Rouge",
+
+        "state": "Louisiana",
+
+        "id": 1058,
+
+        "featured": true,
+
+        "favorite": false,
+
+        "team": "LSU Tigers",
+
+        "coordinates": {
+
+            "longitude": -91.1837,
+
+            "latitude": 30.4120
+
+        },
+
+        "image": "lsu"
+
+    },
+
+    {
+
+        "stadium": "Vaught-Hemingway Stadium",
+
+        "conference": "SEC",
+
+        "city": "Oxford",
+
+        "state": "Mississippi",
+
+        "id": 1059,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Ole Miss Rebels",
+
+        "coordinates": {
+
+            "longitude": -89.5342,
+
+            "latitude": 34.3620
+
+        },
+
+        "image": "ole_miss"
+
+    },
+
+    {
+
+        "stadium": "Davis Wade Stadium",
+
+        "conference": "SEC",
+
+        "city": "Mississippi State",
+
+        "state": "Mississippi",
+
+        "id": 1060,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Mississippi State Bulldogs",
+
+        "coordinates": {
+
+            "longitude": -88.7934,
+
+            "latitude": 33.4563
+
+        },
+
+        "image": "miss_st"
+
+    },
+
+    {
+
+        "stadium": "Faurot Field (Stadium)",
+
+        "conference": "SEC",
+
+        "city": "Columbia",
+
+        "state": "Missouri",
+
+        "id": 1061,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Missouri Tigers",
+
+        "coordinates": {
+
+            "longitude": -92.3332,
+
+            "latitude": 38.9358
+
+        },
+
+        "image": "missouri"
+
+    },
+
+    {
+
+        "stadium": "Williams-Brice Stadium",
+
+        "conference": "SEC",
+
+        "city": "Columbia",
+
+        "state": "South Carolina",
+
+        "id": 1062,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "South Carolina Gamecocks",
+
+        "coordinates": {
+
+            "longitude": -81.0191,
+
+            "latitude": 33.9731
+
+        },
+
+        "image": "south_carolina"
+
+    },
+
+    {
+
+        "stadium": "Neyland Stadium",
+
+        "conference": "SEC",
+
+        "city": "Knoxville",
+
+        "state": "Tennessee",
+
+        "id": 1063,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Tennessee Volunteers",
+
+        "coordinates": {
+
+            "longitude": -83.9250,
+
+            "latitude": 35.9550
+
+        },
+
+        "image": "tennessee"
+
+    },
+
+    {
+
+        "stadium": "Kyle Field (Stadium)",
+
+        "conference": "SEC",
+
+        "city": "College Station",
+
+        "state": "Texas",
+
+        "id": 1064,
+
+        "featured": true,
+
+        "favorite": true,
+
+        "team": "Texas A&M Aggies",
+
+        "coordinates": {
+
+            "longitude": -96.3404,
+
+            "latitude": 30.6099
+
+        },
+
+        "image": "texas_a&m"
+
+    },
+
+    {
+
+        "stadium": "Vanderbilt Stadium",
+
+        "conference": "SEC",
+
+        "city": "Nashville",
+
+        "state": "Tennessee",
+
+        "id": 1065,
+
+        "featured": false,
+
+        "favorite": false,
+
+        "team": "Vanderbilt Commodores",
+
+        "coordinates": {
+
+            "longitude": -86.8089,
+
+            "latitude": 36.1440
+
+        },
+
+        "image": "vanderbilt"
+
+    },
+
+    {
+
+        "stadium": "Wildcat Stadium",
+
+        "conference": "Special Bonus",
+
+        "city": "Abilene",
+
+        "state": "Texas",
+
+        "id": 1066,
+
+        "featured": false,
+
+        "favorite": true,
+
+        "team": "ACU Wildcats",
+
+        "coordinates": {
+
+            "longitude": -99.7089,
+
+            "latitude": 32.4735
+
+        },
+
+        "image": "acu_bonus"
+
+    }
+
+]

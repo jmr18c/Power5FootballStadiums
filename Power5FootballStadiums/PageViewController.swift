@@ -1,8 +1,8 @@
 //
 //  PageViewController.swift
-//  Landmarks_JMR
+//  Power5FootballStadiums
 //
-//  Created by Justin Raitz on 11/9/20.
+//  Created by Justin Raitz on 11/12/20.
 //
 
 import SwiftUI

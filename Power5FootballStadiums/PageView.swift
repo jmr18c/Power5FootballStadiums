@@ -1,8 +1,8 @@
 //
 //  PageView.swift
-//  Landmarks_JMR
+//  Power5FootballStadiums
 //
-//  Created by Justin Raitz on 11/9/20.
+//  Created by Justin Raitz on 11/12/20.
 //
 
 import SwiftUI
@@ -26,7 +26,7 @@ struct PageView<Page: View>: View {
 
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
-        PageView(features.map { FeatureCard(landmark: $0) })
+        PageView(features.map { FeatureCard(stadium: $0) })
             .aspectRatio(3/2, contentMode: .fit)
     }
 }
