@@ -50,6 +50,14 @@ struct StadiumDetail: View {
                     Text("\(stadium.city), \(stadium.state)")
                         .font(.subheadline)
                 }
+                
+                HStack(alignment: .top) {
+                    Text("Opened: \(stadium.year)")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("Capacity: \(stadium.capacity)")
+                        .font(.subheadline)
+                }
             }
             .padding()
             

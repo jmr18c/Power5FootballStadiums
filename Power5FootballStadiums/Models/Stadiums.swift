@@ -9,11 +9,11 @@ struct Stadiums: Hashable, Codable, Identifiable {
     var city: String
     var state: String
     var team: String
-    var year: Int
-    var capacity: String
     var conference: Conference
     var favorite: Bool
     var featured: Bool
+    var year: String
+    var capacity: String
 
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
