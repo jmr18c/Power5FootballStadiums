@@ -17,6 +17,10 @@
         "favorite": false,
 
         "team": "Boston College Eagles",
+        
+        "year": 1957,
+        
+        "capacity": "44,500",
 
         "coordinates": {
 
@@ -47,6 +51,10 @@
         "favorite": true,
 
         "team": "Clemson Tigers",
+        
+        "year": 1942,
+        
+        "capacity": "81,500",
 
         "coordinates": {
 
@@ -77,6 +85,10 @@
         "favorite": false,
 
         "team": "Duke Blue Devils",
+        
+        "year": 1929,
+        
+        "capacity": "40,004",
 
         "coordinates": {
 
@@ -107,6 +119,10 @@
         "favorite": false,
 
         "team": "Florida State Seminoles",
+        
+        "year": 1950,
+        
+        "capacity": "79,560",
 
         "coordinates": {
 
@@ -137,6 +153,10 @@
         "favorite": false,
 
         "team": "Georgia Tech Yellow Jackets",
+        
+        "year": 1913,
+        
+        "capacity": "55,000",
 
         "coordinates": {
 
@@ -167,6 +187,10 @@
         "favorite": false,
 
         "team": "Louisville Cardinals",
+        
+        "year": 1998,
+        
+        "capacity": "61,000",
 
         "coordinates": {
 
@@ -197,6 +221,10 @@
         "favorite": false,
 
         "team": "Miami Hurricanes",
+        
+        "year": 1987,
+        
+        "capacity": "64,767",
 
         "coordinates": {
 
@@ -227,6 +255,10 @@
         "favorite": false,
 
         "team": "North Carolina Tar Heels",
+        
+        "year": 1927,
+        
+        "capacity": "50,500",
 
         "coordinates": {
 
@@ -257,6 +289,10 @@
         "favorite": false,
 
         "team": "NC State Wolfpack",
+        
+        "year": 1966,
+        
+        "capacity": "57,583",
 
         "coordinates": {
 
@@ -287,6 +323,10 @@
         "favorite": false,
 
         "team": "Pittsburgh Panthers",
+        
+        "year": 2001,
+        
+        "capacity": "68,400",
 
         "coordinates": {
 
@@ -317,6 +357,10 @@
         "favorite": false,
 
         "team": "Syracuse Orange",
+        
+        "year": 1980,
+        
+        "capacity": "49,262",
 
         "coordinates": {
 
@@ -347,6 +391,10 @@
         "favorite": false,
 
         "team": "Virginia Cavaliers",
+        
+        "year": 1931,
+        
+        "capacity": "61,500",
 
         "coordinates": {
 
@@ -377,6 +425,10 @@
         "favorite": false,
 
         "team": "Virginia Tech Hokies",
+        
+        "year": 1965,
+        
+        "capacity": "65,632",
 
         "coordinates": {
 
@@ -407,6 +459,10 @@
         "favorite": false,
 
         "team": "Wake Forest Demon Deacons",
+        
+        "year": 1968,
+        
+        "capacity": "31,500",
 
         "coordinates": {
 
@@ -437,6 +493,10 @@
         "favorite": false,
 
         "team": "Notre Dame Fighting Irish",
+        
+        "year": 1930,
+        
+        "capacity": "77,622",
 
         "coordinates": {
 
@@ -467,6 +527,10 @@
         "favorite": false,
 
         "team": "Illinois Fighting Illini",
+        
+        "year": 1923,
+        
+        "capacity": "60,670",
 
         "coordinates": {
 
@@ -497,6 +561,10 @@
         "favorite": false,
 
         "team": "Indiana Hoosiers",
+        
+        "year": 1960,
+        
+        "capacity": "52,626",
 
         "coordinates": {
 
@@ -527,6 +595,10 @@
         "favorite": false,
 
         "team": "Iowa Hawkeyes",
+        
+        "year": 1929,
+        
+        "capacity": "69,250",
 
         "coordinates": {
 
@@ -557,6 +629,10 @@
         "favorite": false,
 
         "team": "Maryland Terrapins",
+        
+        "year": 1950,
+        
+        "capacity": "51,802",
 
         "coordinates": {
 
@@ -587,6 +663,10 @@
         "favorite": false,
 
         "team": "Michigan Wolverines",
+        
+        "year": 1927,
+        
+        "capacity": "107,601 (1st)",
 
         "coordinates": {
 
@@ -617,6 +697,10 @@
         "favorite": false,
 
         "team": "Michigan State Spartans",
+        
+        "year": 1923,
+        
+        "capacity": "75,005",
 
         "coordinates": {
 
@@ -647,6 +731,10 @@
         "favorite": false,
 
         "team": "Minnesota Golden Gophers",
+        
+        "year": 2009,
+        
+        "capacity": "50,805",
 
         "coordinates": {
 
@@ -677,6 +765,10 @@
         "favorite": false,
 
         "team": "Nebraska Cornhuskers",
+        
+        "year": 1923,
+        
+        "capacity": "85,458",
 
         "coordinates": {
 
@@ -707,6 +799,10 @@
         "favorite": false,
 
         "team": "Northwestern Wildcats",
+        
+        "year": 1926,
+        
+        "capacity": "47,130",
 
         "coordinates": {
 
@@ -737,6 +833,10 @@
         "favorite": true,
 
         "team": "Ohio State Buckeyes",
+        
+        "year": 1922,
+        
+        "capacity": "102,780 (3rd)",
 
         "coordinates": {
 
@@ -767,6 +867,10 @@
         "favorite": false,
 
         "team": "Penn State Nittany Lions",
+        
+        "year": 1960,
+        
+        "capacity": "106,572 (2nd)",
 
         "coordinates": {
 
@@ -797,6 +901,10 @@
         "favorite": false,
 
         "team": "Purdue Boilermakers",
+        
+        "year": 1924,
+        
+        "capacity": "57,236",
 
         "coordinates": {
 
@@ -827,6 +935,10 @@
         "favorite": false,
 
         "team": "Rutgers Scarlet Knights",
+        
+        "year": 1994,
+        
+        "capacity": "52,454",
 
         "coordinates": {
 
@@ -857,6 +969,10 @@
         "favorite": false,
 
         "team": "Wisconsin Badgers",
+        
+        "year": 1917,
+        
+        "capacity": "80,321",
 
         "coordinates": {
 
@@ -887,6 +1003,10 @@
         "favorite": false,
 
         "team": "Baylor Bears",
+        
+        "year": 2014,
+        
+        "capacity": "45,140",
 
         "coordinates": {
 
@@ -917,6 +1037,10 @@
         "favorite": false,
 
         "team": "Iowa State Cyclones",
+        
+        "year": 1975,
+        
+        "capacity": "61,500",
 
         "coordinates": {
 
@@ -947,6 +1071,10 @@
         "favorite": false,
 
         "team": "Kansas Jayhawks",
+        
+        "year": 1921,
+        
+        "capacity": "47,000",
 
         "coordinates": {
 
@@ -977,6 +1105,10 @@
         "favorite": false,
 
         "team": "Kansas State Wildcats",
+        
+        "year": 1968,
+        
+        "capacity": "50,000",
 
         "coordinates": {
 
@@ -1007,6 +1139,10 @@
         "favorite": false,
 
         "team": "Oklahoma Sooners",
+        
+        "year": 1923,
+        
+        "capacity": "80,126",
 
         "coordinates": {
 
@@ -1037,6 +1173,10 @@
         "favorite": false,
 
         "team": "Oklahoma State Cowboys",
+        
+        "year": 1920,
+        
+        "capacity": "55,509",
 
         "coordinates": {
 
@@ -1067,6 +1207,10 @@
         "favorite": false,
 
         "team": "TCU Horned Frogs",
+        
+        "year": 1930,
+        
+        "capacity": "47,000",
 
         "coordinates": {
 
@@ -1097,6 +1241,10 @@
         "favorite": true,
 
         "team": "Texas Longhorns",
+        
+        "year": 1924,
+        
+        "capacity": "100,119 (7th)",
 
         "coordinates": {
 
@@ -1127,6 +1275,10 @@
         "favorite": false,
 
         "team": "Texas Tech Red Raiders",
+        
+        "year": 1947,
+        
+        "capacity": "60,454",
 
         "coordinates": {
 
@@ -1157,6 +1309,10 @@
         "favorite": false,
 
         "team": "West Virginia Mountaineers",
+        
+        "year": 1980,
+        
+        "capacity": "60,000",
 
         "coordinates": {
 
@@ -1187,6 +1343,10 @@
         "favorite": false,
 
         "team": "Arizona Wildcats",
+        
+        "year": 1929,
+        
+        "capacity": "50,782",
 
         "coordinates": {
 
@@ -1216,7 +1376,11 @@
 
         "favorite": false,
 
-        "team": "Arizona State Sun Devilss",
+        "team": "Arizona State Sun Devils",
+        
+        "year": 1958,
+        
+        "capacity": "53,599",
 
         "coordinates": {
 
@@ -1247,6 +1411,10 @@
         "favorite": false,
 
         "team": "California Golden Bears",
+        
+        "year": 1923,
+        
+        "capacity": "62,467",
 
         "coordinates": {
 
@@ -1277,6 +1445,10 @@
         "favorite": true,
 
         "team": "UCLA Bruins",
+        
+        "year": 1922,
+        
+        "capacity": "92,542 (10th)",
 
         "coordinates": {
 
@@ -1307,6 +1479,10 @@
         "favorite": false,
 
         "team": "Colorado Buffaloes",
+        
+        "year": 1924,
+        
+        "capacity": "50,183",
 
         "coordinates": {
 
@@ -1337,6 +1513,10 @@
         "favorite": true,
 
         "team": "Oregon Ducks",
+        
+        "year": 1967,
+        
+        "capacity": "60,000",
 
         "coordinates": {
 
@@ -1367,6 +1547,10 @@
         "favorite": false,
 
         "team": "Oregon State Beavers",
+        
+        "year": 1953,
+        
+        "capacity": "43,154",
 
         "coordinates": {
 
@@ -1397,6 +1581,10 @@
         "favorite": false,
 
         "team": "USC Trojans",
+        
+        "year": 1923,
+        
+        "capacity": "78,467",
 
         "coordinates": {
 
@@ -1427,6 +1615,10 @@
         "favorite": false,
 
         "team": "Stanford Cardinal",
+        
+        "year": 1921,
+        
+        "capacity": "50,424",
 
         "coordinates": {
 
@@ -1457,6 +1649,10 @@
         "favorite": false,
 
         "team": "Utah Utes",
+        
+        "year": 1998,
+        
+        "capacity": "45,807",
 
         "coordinates": {
 
@@ -1487,6 +1683,10 @@
         "favorite": false,
 
         "team": "Washington Huskies",
+        
+        "year": 1920,
+        
+        "capacity": "70,083",
 
         "coordinates": {
 
@@ -1517,6 +1717,10 @@
         "favorite": false,
 
         "team": "Washington State Cougars",
+        
+        "year": 1972,
+        
+        "capacity": "32,952",
 
         "coordinates": {
 
@@ -1547,6 +1751,10 @@
         "favorite": false,
 
         "team": "Alabama Crimson Tide",
+        
+        "year": 1929,
+        
+        "capacity": "100,077 (8th)",
 
         "coordinates": {
 
@@ -1577,6 +1785,10 @@
         "favorite": false,
 
         "team": "Arkansas Razorbacks",
+        
+        "year": 1938,
+        
+        "capacity": "76,212",
 
         "coordinates": {
 
@@ -1607,6 +1819,10 @@
         "favorite": false,
 
         "team": "Auburn Tigers",
+        
+        "year": 1939,
+        
+        "capacity": "87,451",
 
         "coordinates": {
 
@@ -1637,6 +1853,10 @@
         "favorite": false,
 
         "team": "Florida Gators",
+        
+        "year": 1930,
+        
+        "capacity": "88,548",
 
         "coordinates": {
 
@@ -1667,6 +1887,10 @@
         "favorite": false,
 
         "team": "Georgia Bulldogs",
+        
+        "year": 1929,
+        
+        "capacity": "92,746 (9th)",
 
         "coordinates": {
 
@@ -1697,6 +1921,10 @@
         "favorite": false,
 
         "team": "Kentucky Wildcats",
+        
+        "year": 1973,
+        
+        "capacity": "61,000",
 
         "coordinates": {
 
@@ -1727,6 +1955,10 @@
         "favorite": false,
 
         "team": "LSU Tigers",
+        
+        "year": 1924,
+        
+        "capacity": "102,321 (6th)",
 
         "coordinates": {
 
@@ -1757,6 +1989,10 @@
         "favorite": false,
 
         "team": "Ole Miss Rebels",
+        
+        "year": 1915,
+        
+        "capacity": "64,038",
 
         "coordinates": {
 
@@ -1787,6 +2023,10 @@
         "favorite": false,
 
         "team": "Mississippi State Bulldogs",
+        
+        "year": 1914,
+        
+        "capacity": "61,337",
 
         "coordinates": {
 
@@ -1817,6 +2057,10 @@
         "favorite": false,
 
         "team": "Missouri Tigers",
+        
+        "year": 1926,
+        
+        "capacity": "61,620",
 
         "coordinates": {
 
@@ -1847,6 +2091,10 @@
         "favorite": false,
 
         "team": "South Carolina Gamecocks",
+        
+        "year": 1934,
+        
+        "capacity": "80,250",
 
         "coordinates": {
 
@@ -1877,6 +2125,10 @@
         "favorite": false,
 
         "team": "Tennessee Volunteers",
+        
+        "year": 1921,
+        
+        "capacity": "102,455 (5th)",
 
         "coordinates": {
 
@@ -1907,6 +2159,10 @@
         "favorite": true,
 
         "team": "Texas A&M Aggies",
+        
+        "year": 1927,
+        
+        "capacity": "102,733 (4th)",
 
         "coordinates": {
 
@@ -1937,6 +2193,10 @@
         "favorite": false,
 
         "team": "Vanderbilt Commodores",
+        
+        "year": 1922,
+        
+        "capacity": "40,550",
 
         "coordinates": {
 
@@ -1967,6 +2227,10 @@
         "favorite": true,
 
         "team": "ACU Wildcats",
+        
+        "year": 2017,
+        
+        "capacity": "12,000",
 
         "coordinates": {
 
