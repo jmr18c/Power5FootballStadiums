@@ -14,7 +14,8 @@ struct ConferenceRow: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(self.conferenceName)
-                .font(.headline)
+                .font(.largeTitle)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .padding(.leading, 15)
                 .padding(.top, 5)
             
@@ -31,7 +32,7 @@ struct ConferenceRow: View {
                     }
                 }
             }
-            .frame(height: 185)
+            .frame(height: 250)
         }
     }
 }
@@ -39,15 +40,15 @@ struct ConferenceRow: View {
 struct ConferenceItem: View {
     var stadium: Stadiums
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .center) {
             stadium.imageName
                 .renderingMode(.original)
                 .resizable()
-                .frame(width: 155, height: 155)
-                .cornerRadius(5)
+                .cornerRadius(50)
+                .frame(width: 200, height: 200)
             Text(stadium.stadium)
                 .foregroundColor(.primary)
-                .font(.caption)
+                .font(.system(size: 20, weight: .bold))
         }
         .padding(.leading, 15)
     }

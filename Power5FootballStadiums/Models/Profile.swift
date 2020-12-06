@@ -2,19 +2,22 @@ import Foundation
 
 struct Profile {
     var username: String
-    var sportPhoto: Sport
+    var favConference: Conference
+    var visitedCount: Int
     
-    static let `default` = Self(username: "jraitz00", sportPhoto: .football)
+    static let `default` = Self(username: "jraitz00", favConference: .big10, visitedCount: 0)
     
-    init(username: String, sportPhoto: Sport = .football) {
+    init(username: String, favConference: Conference = .big10, visitedCount: Int) {
         self.username = username
-        self.sportPhoto = sportPhoto
+        self.favConference = favConference
+        self.visitedCount = visitedCount
     }
     
-    enum Sport: String, CaseIterable {
-        case football = "🏈"
-        case basketball = "🏀"
-        case baseball = "⚾️"
-        case soccer = "⚽️"
+    enum Conference: String, CaseIterable {
+        case acc = "ACC"
+        case big10 = "Big10"
+        case big12 = "Big12"
+        case pac12 = "Pac-12"
+        case sec = "SEC"
     }
 }

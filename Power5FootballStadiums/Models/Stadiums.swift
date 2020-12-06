@@ -12,6 +12,7 @@ struct Stadiums: Hashable, Codable, Identifiable {
     var conference: Conference
     var favorite: Bool
     var featured: Bool
+    var visited: Bool
     var year: String
     var capacity: String
 

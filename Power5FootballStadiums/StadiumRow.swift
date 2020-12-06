@@ -23,6 +23,11 @@ struct StadiumRow: View {
                     .imageScale(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
                     .foregroundColor(.yellow)
             }
+            if stadium.visited {
+                Image(systemName: "circle.fill")
+                    .imageScale(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(.green)
+            }
         }
     }
 }

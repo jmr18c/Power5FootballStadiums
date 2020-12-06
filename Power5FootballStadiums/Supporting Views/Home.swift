@@ -25,7 +25,7 @@ struct ConferenceHome: View {
     
     var profileButton: some View {
         Button(action: { self.showingProfile.toggle() }) {
-            Image(systemName: "person.crop.circle")
+            Image(systemName: "person.crop.square")
                 .imageScale(.large)
                 .accessibility(label: Text("User Profile"))
                 .padding()
@@ -48,6 +48,8 @@ struct ConferenceHome: View {
                 
                 NavigationLink(destination: StadiumList()) {
                     Text("See All Stadiums")
+                        .font(.system(size: 15, weight: .bold))
+                    
                 }
             }
             .navigationBarTitle(Text("Power 5 Stadiums"))

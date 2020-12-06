@@ -21,15 +21,19 @@ struct StadiumDetail: View {
                 .frame(height: 300)
                 .edgesIgnoringSafeArea(.top)
             
-            CircleImage(image: stadium.imageName)
-                .offset(y: -130)
-                .padding(.bottom, -130)
+            DetailImage(image: stadium.imageName)
+                .offset(y: -85)
+                .padding(.bottom, -105)
             
-            VStack(alignment: .leading) {
+            VStack(alignment: .center) {
                 HStack {
                     Text(stadium.stadium)
-                        .font(.title)
-                    
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+                }
+                
+                HStack {
                     Button(action: {
                         self.userData.stadiums[self.stadiumIndex].favorite.toggle()
                                         }) {
@@ -41,35 +45,32 @@ struct StadiumDetail: View {
                                 .foregroundColor(Color.gray)
                         }
                     }
+                    Button(action: {
+                        self.userData.stadiums[self.stadiumIndex].visited.toggle()
+                                        }) {
+                        if self.userData.stadiums[self.stadiumIndex].visited {
+                            Image(systemName: "circle.fill")
+                                .foregroundColor(Color.green)
+                        } else {
+                            Image(systemName: "circle")
+                                .foregroundColor(Color.gray)
+                        }
+                    }
                 }
-                
-                HStack(alignment: .top) {
-                    Text(stadium.team)
-                        .font(.subheadline)
-                    Spacer()
-                    Text("\(stadium.city), \(stadium.state)")
-                        .font(.subheadline)
-                }
-                
-                HStack(alignment: .top) {
-                    Text("Opened: \(stadium.year)")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("Capacity: \(stadium.capacity)")
-                        .font(.subheadline)
-                }
+                .padding(.bottom)
+                Text(stadium.team)
+                    .font(.title)
+                Text("\(stadium.city), \(stadium.state)")
+                    .font(.title)
+                Text("Opened: \(stadium.year)")
+                    .font(.title)
+                Text("Capacity: \(stadium.capacity)")
+                    .font(.title)
             }
             .padding()
             
             Spacer()
         }
         .navigationBarTitle(Text(stadium.stadium), displayMode: .inline)
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        StadiumDetail(stadium: stadiumData[0])
-            .environmentObject(UserData())
     }
 }

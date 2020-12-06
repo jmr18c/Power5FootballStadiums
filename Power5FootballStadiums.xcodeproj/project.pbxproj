@@ -15,7 +15,7 @@
 		9476B4D7255D7E15003AE6B4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4D6255D7E14003AE6B4 /* Data.swift */; };
 		9476B4DA255D7E1E003AE6B4 /* Stadiums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4D9255D7E1E003AE6B4 /* Stadiums.swift */; };
 		9476B4DD255D7E24003AE6B4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4DC255D7E24003AE6B4 /* Profile.swift */; };
-		9476B4E0255D7E63003AE6B4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4DF255D7E63003AE6B4 /* CircleImage.swift */; };
+		9476B4E0255D7E63003AE6B4 /* DetailImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4DF255D7E63003AE6B4 /* DetailImage.swift */; };
 		9476B4E3255D7E6B003AE6B4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4E2255D7E6B003AE6B4 /* MapView.swift */; };
 		9476B4E6255D7EB0003AE6B4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4E5255D7EB0003AE6B4 /* Home.swift */; };
 		9476B4E9255D7EBC003AE6B4 /* ConferenceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4E8255D7EBC003AE6B4 /* ConferenceRow.swift */; };
@@ -124,7 +124,7 @@
 		9476B4D6255D7E14003AE6B4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		9476B4D9255D7E1E003AE6B4 /* Stadiums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stadiums.swift; sourceTree = "<group>"; };
 		9476B4DC255D7E24003AE6B4 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		9476B4DF255D7E63003AE6B4 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9476B4DF255D7E63003AE6B4 /* DetailImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImage.swift; sourceTree = "<group>"; };
 		9476B4E2255D7E6B003AE6B4 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9476B4E5255D7EB0003AE6B4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		9476B4E8255D7EBC003AE6B4 /* ConferenceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceRow.swift; sourceTree = "<group>"; };
@@ -392,7 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				9476B4BE255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift */,
-				9476B4DF255D7E63003AE6B4 /* CircleImage.swift */,
+				9476B4DF255D7E63003AE6B4 /* DetailImage.swift */,
 				9476B4E2255D7E6B003AE6B4 /* MapView.swift */,
 				9476B4E5255D7EB0003AE6B4 /* Home.swift */,
 				9476B4E8255D7EBC003AE6B4 /* ConferenceRow.swift */,
@@ -567,7 +567,7 @@
 				9476B4DA255D7E1E003AE6B4 /* Stadiums.swift in Sources */,
 				9476B4E6255D7EB0003AE6B4 /* Home.swift in Sources */,
 				9476B4E9255D7EBC003AE6B4 /* ConferenceRow.swift in Sources */,
-				9476B4E0255D7E63003AE6B4 /* CircleImage.swift in Sources */,
+				9476B4E0255D7E63003AE6B4 /* DetailImage.swift in Sources */,
 				9476B4F9255D8008003AE6B4 /* StadiumRow.swift in Sources */,
 				9476B4EF255D7F52003AE6B4 /* ProfileHost.swift in Sources */,
 				9476B502255D83FA003AE6B4 /* PageView.swift in Sources */,

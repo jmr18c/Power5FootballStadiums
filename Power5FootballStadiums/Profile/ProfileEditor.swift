@@ -23,8 +23,8 @@ struct ProfileEditor: View {
                 Text("Favorite Sport")
                     .bold()
                 
-                Picker("Favoite Sport", selection: $profile.sportPhoto) {
-                    ForEach(Profile.Sport.allCases, id: \.self) { season in
+                Picker("Favoite Sport", selection: $profile.favConference) {
+                    ForEach(Profile.Conference.allCases, id: \.self) { season in
                         Text(season.rawValue).tag(season)
                     }
                 }

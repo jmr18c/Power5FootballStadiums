@@ -10,6 +10,7 @@ import Combine
 
 final class UserData: ObservableObject {
     @Published var showFavoritesOnly = false
+    @Published var showVisitedOnly = false
     @Published var stadiums = stadiumData
     @Published var profile = Profile.default
 }

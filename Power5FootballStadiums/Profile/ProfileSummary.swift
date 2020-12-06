@@ -16,7 +16,9 @@ struct ProfileSummary: View {
                 .bold()
                 .font(.title)
             
-            Text("Favorite Sport: \(self.profile.sportPhoto.rawValue)")
+            Text("Favorite Conference: \(self.profile.favConference.rawValue)")
+            
+            Text("Stadiums Visited: \(self.profile.visitedCount)/66")
         }
     }
 }

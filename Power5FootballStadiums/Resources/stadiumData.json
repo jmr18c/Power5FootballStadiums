@@ -15,6 +15,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Boston College Eagles",
         
@@ -36,7 +38,7 @@
 
     {
 
-        "stadium": "Memorial Stadium - \"Death Valley\"",
+        "stadium": "Memorial Stadium",
 
         "conference": "ACC",
 
@@ -49,6 +51,8 @@
         "featured": true,
 
         "favorite": true,
+        
+        "visited": false,
 
         "team": "Clemson Tigers",
         
@@ -83,6 +87,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Duke Blue Devils",
         
@@ -117,6 +123,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Florida State Seminoles",
         
@@ -151,6 +159,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Georgia Tech Yellow Jackets",
         
@@ -185,6 +195,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Louisville Cardinals",
         
@@ -219,6 +231,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Miami Hurricanes",
         
@@ -253,6 +267,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "North Carolina Tar Heels",
         
@@ -287,6 +303,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "NC State Wolfpack",
         
@@ -321,6 +339,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Pittsburgh Panthers",
         
@@ -355,6 +375,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Syracuse Orange",
         
@@ -389,6 +411,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Virginia Cavaliers",
         
@@ -423,6 +447,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Virginia Tech Hokies",
         
@@ -457,6 +483,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Wake Forest Demon Deacons",
         
@@ -491,6 +519,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Notre Dame Fighting Irish",
         
@@ -525,6 +555,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Illinois Fighting Illini",
         
@@ -559,6 +591,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Indiana Hoosiers",
         
@@ -593,6 +627,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Iowa Hawkeyes",
         
@@ -627,6 +663,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Maryland Terrapins",
         
@@ -648,7 +686,7 @@
 
     {
 
-        "stadium": "Michigan Stadium - \"The Big House\"",
+        "stadium": "Michigan Stadium",
 
         "conference": "Big Ten",
 
@@ -661,6 +699,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Michigan Wolverines",
         
@@ -695,6 +735,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Michigan State Spartans",
         
@@ -729,6 +771,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Minnesota Golden Gophers",
         
@@ -763,6 +807,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Nebraska Cornhuskers",
         
@@ -784,7 +830,7 @@
 
     {
 
-        "stadium": "Ryan Field (Stadium)",
+        "stadium": "Ryan Field",
 
         "conference": "Big Ten",
 
@@ -797,6 +843,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Northwestern Wildcats",
         
@@ -818,7 +866,7 @@
 
     {
 
-        "stadium": "Ohio Stadium - \"The Shoe\"",
+        "stadium": "Ohio Stadium",
 
         "conference": "Big Ten",
 
@@ -831,6 +879,8 @@
         "featured": true,
 
         "favorite": true,
+        
+        "visited": true,
 
         "team": "Ohio State Buckeyes",
         
@@ -852,7 +902,7 @@
 
     {
 
-        "stadium": "Beaver Stadium - \"Happy Valley\"",
+        "stadium": "Beaver Stadium",
 
         "conference": "Big Ten",
 
@@ -865,6 +915,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Penn State Nittany Lions",
         
@@ -899,6 +951,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Purdue Boilermakers",
         
@@ -933,6 +987,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Rutgers Scarlet Knights",
         
@@ -967,6 +1023,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Wisconsin Badgers",
         
@@ -1001,6 +1059,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": true,
 
         "team": "Baylor Bears",
         
@@ -1035,6 +1095,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Iowa State Cyclones",
         
@@ -1056,7 +1118,7 @@
 
     {
 
-        "stadium": "David Booth Kansas Memorial Stadium",
+        "stadium": "David Booth Memorial Stadium",
 
         "conference": "Big 12",
 
@@ -1069,6 +1131,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Kansas Jayhawks",
         
@@ -1103,6 +1167,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Kansas State Wildcats",
         
@@ -1124,7 +1190,7 @@
 
     {
 
-        "stadium": "Gaylord Family-Oklahoma Memorial Stadium",
+        "stadium": "Gaylord Family Memorial Stadium",
 
         "conference": "Big 12",
 
@@ -1137,6 +1203,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Oklahoma Sooners",
         
@@ -1171,6 +1239,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Oklahoma State Cowboys",
         
@@ -1205,6 +1275,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "TCU Horned Frogs",
         
@@ -1226,7 +1298,7 @@
 
     {
 
-        "stadium": "Darrell K Royal-Texas Memorial Stadium",
+        "stadium": "Darrell K Royal Memorial Stadium",
 
         "conference": "Big 12",
 
@@ -1239,6 +1311,8 @@
         "featured": true,
 
         "favorite": true,
+        
+        "visited": true,
 
         "team": "Texas Longhorns",
         
@@ -1273,6 +1347,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Texas Tech Red Raiders",
         
@@ -1307,6 +1383,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "West Virginia Mountaineers",
         
@@ -1341,6 +1419,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Arizona Wildcats",
         
@@ -1375,6 +1455,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Arizona State Sun Devils",
         
@@ -1409,6 +1491,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "California Golden Bears",
         
@@ -1443,6 +1527,8 @@
         "featured": true,
 
         "favorite": true,
+        
+        "visited": false,
 
         "team": "UCLA Bruins",
         
@@ -1464,7 +1550,7 @@
 
     {
 
-        "stadium": "Folsom Field (Stadium)",
+        "stadium": "Folsom Field",
 
         "conference": "Pac-12",
 
@@ -1477,6 +1563,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Colorado Buffaloes",
         
@@ -1511,6 +1599,8 @@
         "featured": true,
 
         "favorite": true,
+        
+        "visited": false,
 
         "team": "Oregon Ducks",
         
@@ -1545,6 +1635,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Oregon State Beavers",
         
@@ -1579,6 +1671,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "USC Trojans",
         
@@ -1613,6 +1707,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Stanford Cardinal",
         
@@ -1647,6 +1743,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Utah Utes",
         
@@ -1681,6 +1779,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Washington Huskies",
         
@@ -1715,6 +1815,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Washington State Cougars",
         
@@ -1749,6 +1851,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Alabama Crimson Tide",
         
@@ -1770,7 +1874,7 @@
 
     {
 
-        "stadium": "Donald W. Reynolds Razorback Stadium",
+        "stadium": "Donald W. Reynolds Stadium",
 
         "conference": "SEC",
 
@@ -1783,6 +1887,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Arkansas Razorbacks",
         
@@ -1817,6 +1923,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Auburn Tigers",
         
@@ -1851,6 +1959,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Florida Gators",
         
@@ -1885,6 +1995,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Georgia Bulldogs",
         
@@ -1906,7 +2018,7 @@
 
     {
 
-        "stadium": "Kroger Field (Stadium)",
+        "stadium": "Kroger Field",
 
         "conference": "SEC",
 
@@ -1919,6 +2031,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Kentucky Wildcats",
         
@@ -1940,7 +2054,7 @@
 
     {
 
-        "stadium": "Tiger Stadium - \"Death Valley\"",
+        "stadium": "Tiger Stadium",
 
         "conference": "SEC",
 
@@ -1953,6 +2067,8 @@
         "featured": true,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "LSU Tigers",
         
@@ -1987,6 +2103,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Ole Miss Rebels",
         
@@ -2021,6 +2139,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Mississippi State Bulldogs",
         
@@ -2042,7 +2162,7 @@
 
     {
 
-        "stadium": "Faurot Field (Stadium)",
+        "stadium": "Faurot Field",
 
         "conference": "SEC",
 
@@ -2055,6 +2175,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Missouri Tigers",
         
@@ -2089,6 +2211,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "South Carolina Gamecocks",
         
@@ -2123,6 +2247,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Tennessee Volunteers",
         
@@ -2144,7 +2270,7 @@
 
     {
 
-        "stadium": "Kyle Field (Stadium)",
+        "stadium": "Kyle Field",
 
         "conference": "SEC",
 
@@ -2157,6 +2283,8 @@
         "featured": true,
 
         "favorite": true,
+        
+        "visited": true,
 
         "team": "Texas A&M Aggies",
         
@@ -2191,6 +2319,8 @@
         "featured": false,
 
         "favorite": false,
+        
+        "visited": false,
 
         "team": "Vanderbilt Commodores",
         
@@ -2225,6 +2355,8 @@
         "featured": false,
 
         "favorite": true,
+        
+        "visited": true,
 
         "team": "ACU Wildcats",
         
