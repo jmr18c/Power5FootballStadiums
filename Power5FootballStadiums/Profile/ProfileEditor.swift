@@ -20,12 +20,12 @@ struct ProfileEditor: View {
             }
             
             VStack(alignment: .leading, spacing: 20) {
-                Text("Favorite Sport")
+                Text("Favorite Conference")
                     .bold()
                 
-                Picker("Favoite Sport", selection: $profile.favConference) {
-                    ForEach(Profile.Conference.allCases, id: \.self) { season in
-                        Text(season.rawValue).tag(season)
+                Picker("Favorite Conference", selection: $profile.favConference) {
+                    ForEach(Profile.Conference.allCases, id: \.self) { conference in
+                        Text(conference.rawValue).tag(conference)
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())

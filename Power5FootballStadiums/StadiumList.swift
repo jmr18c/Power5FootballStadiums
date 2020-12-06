@@ -17,7 +17,7 @@ struct StadiumList: View {
                     Text("Favorites Only")
                 }
                 ForEach(userData.stadiums) { stadium in
-                    if !self.userData.showFavoritesOnly || stadium.favorite {
+                    if !self.userData.showFavoritesOnly || stadium.favorite{
                         NavigationLink(destination: StadiumDetail(stadium: stadium)) {
                             StadiumRow(stadium: stadium)
                         }
