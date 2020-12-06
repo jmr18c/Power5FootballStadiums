@@ -39,20 +39,24 @@ struct StadiumDetail: View {
                                         }) {
                         if self.userData.stadiums[self.stadiumIndex].favorite {
                             Image(systemName: "star.fill")
+                                .imageScale(.large)
                                 .foregroundColor(Color.yellow)
                         } else {
                             Image(systemName: "star")
+                                .imageScale(.large)
                                 .foregroundColor(Color.gray)
                         }
                     }
                     Button(action: {
                         self.userData.stadiums[self.stadiumIndex].visited.toggle()
-                                        }) {
+                        }) {
                         if self.userData.stadiums[self.stadiumIndex].visited {
                             Image(systemName: "circle.fill")
+                                .imageScale(.large)
                                 .foregroundColor(Color.green)
                         } else {
                             Image(systemName: "circle")
+                                .imageScale(.large)
                                 .foregroundColor(Color.gray)
                         }
                     }

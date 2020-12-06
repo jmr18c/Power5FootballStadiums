@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D73BB1A257D800B00E29C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D73BB1C257D800B00E29C3E /* LaunchScreen.storyboard */; };
 		9476B4BF255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4BE255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift */; };
 		9476B4C1255D7B27003AE6B4 /* StadiumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9476B4C0255D7B27003AE6B4 /* StadiumDetail.swift */; };
 		9476B4C3255D7B2A003AE6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9476B4C2255D7B2A003AE6B4 /* Assets.xcassets */; };
@@ -110,10 +111,10 @@
 		94A5D080256C53BA00920A8A /* lsu_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D047256C53BA00920A8A /* lsu_feature.jpg */; };
 		94A5D081256C53BA00920A8A /* oregon_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D048256C53BA00920A8A /* oregon_feature.jpg */; };
 		94A5D085256C54EB00920A8A /* acu_bonus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D084256C54EB00920A8A /* acu_bonus.jpg */; };
-		94A5D08F256C74FB00920A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A5D08E256C74FB00920A8A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D73BB1B257D800B00E29C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9476B4BB255D7B27003AE6B4 /* Power5FootballStadiums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Power5FootballStadiums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9476B4BE255D7B27003AE6B4 /* Power5FootballStadiumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power5FootballStadiumsApp.swift; sourceTree = "<group>"; };
 		9476B4C0255D7B27003AE6B4 /* StadiumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumDetail.swift; sourceTree = "<group>"; };
@@ -219,7 +220,6 @@
 		94A5D047256C53BA00920A8A /* lsu_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lsu_feature.jpg; sourceTree = "<group>"; };
 		94A5D048256C53BA00920A8A /* oregon_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oregon_feature.jpg; sourceTree = "<group>"; };
 		94A5D084256C54EB00920A8A /* acu_bonus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acu_bonus.jpg; sourceTree = "<group>"; };
-		94A5D08E256C74FB00920A8A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,8 +259,8 @@
 				9476B4FE255D83F5003AE6B4 /* PageViewController.swift */,
 				9476B501255D83FA003AE6B4 /* PageView.swift */,
 				9476B504255D83FE003AE6B4 /* PageControl.swift */,
-				94A5D08E256C74FB00920A8A /* LaunchScreen.storyboard */,
 				9476B4C2255D7B2A003AE6B4 /* Assets.xcassets */,
+				1D73BB1C257D800B00E29C3E /* LaunchScreen.storyboard */,
 				9476B4C7255D7B2A003AE6B4 /* Info.plist */,
 				9476B4D4255D7DE9003AE6B4 /* Models */,
 				9476B4D3255D7DDD003AE6B4 /* Profile */,
@@ -516,7 +516,7 @@
 				94A5D059256C53BA00920A8A /* miss_st.jpg in Resources */,
 				94A5D000256C537C00920A8A /* utah.jpg in Resources */,
 				94A5D066256C53BA00920A8A /* nc_state.jpg in Resources */,
-				94A5D08F256C74FB00920A8A /* LaunchScreen.storyboard in Resources */,
+				1D73BB1A257D800B00E29C3E /* LaunchScreen.storyboard in Resources */,
 				94A5D073256C53BA00920A8A /* clemson_feature.jpg in Resources */,
 				94A5D054256C53BA00920A8A /* oklahoma_state.jpg in Resources */,
 				94A5D007256C537C00920A8A /* usc_feature.jpg in Resources */,
@@ -576,6 +576,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D73BB1C257D800B00E29C3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D73BB1B257D800B00E29C3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9476B4C8255D7B2A003AE6B4 /* Debug */ = {

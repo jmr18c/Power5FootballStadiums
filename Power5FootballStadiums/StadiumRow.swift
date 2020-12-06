@@ -20,12 +20,12 @@ struct StadiumRow: View {
             
             if stadium.favorite {
                 Image(systemName: "star.fill")
-                    .imageScale(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
+                    .imageScale(.large)
                     .foregroundColor(.yellow)
             }
             if stadium.visited {
                 Image(systemName: "circle.fill")
-                    .imageScale(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
+                    .imageScale(.medium)
                     .foregroundColor(.green)
             }
         }

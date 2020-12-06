@@ -18,13 +18,7 @@ struct ProfileSummary: View {
             
             Text("Favorite Conference: \(self.profile.favConference.rawValue)")
             
-            Text("Stadiums Visited: \(self.profile.visitedCount)/66")
+            Text("Stadiums Visited: \(self.profile.visitedCount) / 66 Total Stadiums")
         }
-    }
-}
-
-struct ProfileSummary_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileSummary(profile: Profile.default)
     }
 }

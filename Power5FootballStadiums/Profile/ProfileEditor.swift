@@ -13,7 +13,7 @@ struct ProfileEditor: View {
     var body: some View {
         List {
             HStack {
-                Text("Username")
+                Text("Username:")
                     .bold()
                 Divider()
                 TextField("Username", text: $profile.username)
@@ -31,7 +31,21 @@ struct ProfileEditor: View {
                 .pickerStyle(SegmentedPickerStyle())
             }
             .padding(.top)
+            
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Out of the 66 stadiums in the app, how many have you visited?")
+                    .bold()
+                
+                HStack {
+                    Text("Enter the number you have visited:")
+                        .bold()
+                    Divider()
+                    TextField("Stadiums Visited", text: $profile.visitedCount)
+                }
+            }
         }
+        
+        
     }
 }
 
