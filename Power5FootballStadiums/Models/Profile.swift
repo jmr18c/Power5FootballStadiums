@@ -3,11 +3,11 @@ import Foundation
 struct Profile {
     var username: String
     var favConference: Conference
-    var visitedCount: String
+    var visitedCount: Int
     
-    static let `default` = Self(username: "jraitz00", favConference: .big10, visitedCount: "0")
+    static let `default` = Self(username: "jraitz00", favConference: .big10, visitedCount: 0)
     
-    init(username: String, favConference: Conference = .big10, visitedCount: String) {
+    init(username: String, favConference: Conference = .big10, visitedCount: Int) {
         self.username = username
         self.favConference = favConference
         self.visitedCount = visitedCount

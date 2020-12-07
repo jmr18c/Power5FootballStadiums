@@ -7,8 +7,25 @@
 
 import SwiftUI
 
+
+    
+
 struct ProfileSummary: View {
     var profile: Profile
+    @EnvironmentObject var userData: UserData
+
+    /*func visitedUpdateCount() -> Int{
+        var visitedCount = 0
+        
+        ForEach(userData.stadiums) { stadium in
+            if stadium.visited {
+                visitedCount += 1
+            }
+        }
+        
+        return visitedCount
+    }*/
+    
     
     var body: some View {
         List {
