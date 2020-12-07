@@ -3,7 +3,8 @@ import SwiftUI
 import CoreLocation
 
 let stadiumData: [Stadiums] = load("stadiumData.json")
-let features = stadiumData.filter { $0.featured }
+var features = stadiumData.filter { $0.featured }
+var visits = stadiumData.filter { $0.visited }
 
 
 func load<T: Decodable>(_ filename: String) -> T {
@@ -60,4 +61,3 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
-

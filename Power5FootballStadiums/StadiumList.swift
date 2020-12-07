@@ -24,7 +24,7 @@ struct StadiumList: View {
                     }
                 }
                 Toggle(isOn: $userData.showVisitedOnly) {
-                    Text("Visited only")
+                    Text("Visited Only")
                 }
                 ForEach(userData.stadiums) { stadium in
                     if !self.userData.showVisitedOnly || stadium.visited {
