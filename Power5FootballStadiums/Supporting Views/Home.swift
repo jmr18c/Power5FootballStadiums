@@ -66,7 +66,7 @@ struct FeaturedStadiums: View {
     var stadium: [Stadiums]
     var body: some View {
         PageView(features.map { FeatureCard(stadium: $0) })
-        .aspectRatio(3/2, contentMode: .fit)
+        .aspectRatio(3 / 2, contentMode: .fit)
     }
 }
 

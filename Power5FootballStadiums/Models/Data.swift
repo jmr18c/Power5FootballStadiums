@@ -3,9 +3,8 @@ import SwiftUI
 import CoreLocation
 
 let stadiumData: [Stadiums] = load("stadiumData.json")
-var features = stadiumData.filter { $0.featured }
+let features = stadiumData.filter { $0.featured }
 var visits = stadiumData.filter { $0.visited }
-
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
@@ -23,6 +22,7 @@ func load<T: Decodable>(_ filename: String) -> T {
     
     do {
         let decoder = JSONDecoder()
+        //var jsonResult = try decoder.decode(Stadiums.self, from: data)
         return try decoder.decode(T.self, from: data)
     } catch {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
@@ -60,4 +60,10 @@ final class ImageStore {
         images[name] = ImageStore.loadImage(name: name)
         return images.index(forKey: name)!
     }
+}
+
+func countVisited() -> Int {
+    visits = stadiumData.filter { $0.visited }
+    
+    return visits.count
 }

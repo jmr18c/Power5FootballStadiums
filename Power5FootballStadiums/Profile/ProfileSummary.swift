@@ -18,7 +18,7 @@ struct ProfileSummary: View {
             
             Text("Favorite Conference: \(self.profile.favConference.rawValue)")
             
-            Text("Stadiums Visited: \(visits.count) / 66 Total Stadiums")
+            Text("Stadiums Visited: \(self.profile.visitedCount) / 66 Total Stadiums")
         }
     }
 }

@@ -10,10 +10,7 @@ struct Profile {
     init(username: String, favConference: Conference = .big10, visitedCount: Int) {
         self.username = username
         self.favConference = favConference
-        
-        
-        
-        self.visitedCount = visitedCount
+        self.visitedCount = countVisited()
     }
     
     
